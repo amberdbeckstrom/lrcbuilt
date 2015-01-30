@@ -1,6 +1,6 @@
-/**{
+*{
 		outline:1px solid red;
-	}*/
+	}
 
 html body{
 	width: 100%;
@@ -12,6 +12,46 @@ html body{
 body {
 	margin: 0 auto;
 	height: 100%;
+}
+
+@font-face {
+    font-family: breuer;
+    font-weight: 100;
+    src: url(fonts/BreuerText-Light.otf);
+
+}
+
+@font-face {
+    font-family: breuer;
+    font-weight: 200;
+    src: url(fonts/BreuerText-LightItalic.otf);
+
+}
+
+@font-face {
+    font-family: breuer;
+    font-weight: 300;
+    src: url(fonts/BreuerText-Regular.otf);
+
+}
+
+@font-face {
+    font-family: breuer;
+    font-weight: 400;
+    src: url(fonts/BreuerText-RegularItalic.otf);
+
+}
+
+@font-face {
+    font-family: breuer;
+    font-weight: 500;
+    src: url(fonts/BreuerText-Bold.otf);
+}
+
+@font-face {
+    font-family: breuer;
+    font-weight: 600;
+    src: url(fonts/BreuerText-BoldItalic.otf);
 }
 
 .homecover {
@@ -32,3 +72,17 @@ body {
 
 }
 
+.learnmorebox{
+	width: 200px;
+	height: 100px;
+	z-index: 101;
+}
+
+h1 {
+	font-family: breuer;
+	font-weight: 100;
+	font-size: 7em;
+
+
+
+}
