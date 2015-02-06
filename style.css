@@ -1,7 +1,7 @@
-*{
+/**{
 		outline:1px solid red;
 	}
-
+*/
 html body{
 	width: 100%;
 	margin:0;
@@ -116,7 +116,7 @@ li {
 
 .covertitle{
 	position: absolute;
-	margin: 12% 0px 0px 20%;
+	margin: 12% 0px 0px 23%;
 	z-index: 99;
 	width: 700px;
 }
