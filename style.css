@@ -64,17 +64,68 @@ body {
 }
 
 .sidenav {
-	position: absolute;
+	position: fixed;
+	background-color: hsla(56, 98%, 52%, 0.65);
+	margin: 0px 0px 0px 7%;
 	width: 160px;
 	height: 100%;
-	background-color: red;
 	z-index: 99;
+
+} 
+
+.logo{
+	position: fixed;
+	top: 50px;
+	left: 175px;
+	width: 80px;
+}
+
+.nav{
+	position: fixed;
+	top: 140px;
+}
+
+.nav2{
+	position: fixed;
+	top: 260px;
+}
+
+
+
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+	width: 160px;
 
 }
 
+li {
+	color: #272727;
+	margin-left: 0px;
+	text-align: center;
+	font-family: breuer;
+	font-weight: 500;
+	font-size: 1.1em;
+	letter-spacing: .5px;
+}
+
+.arrow{
+	margin: 0px 0px 0px 38%;
+}
+
+
+.covertitle{
+	position: absolute;
+	margin: 12% 0px 0px 20%;
+	z-index: 99;
+	width: 700px;
+}
+
 .learnmorebox{
-	width: 200px;
-	height: 100px;
+	position: absolute;
+	margin: 49% 0px 0px 49%;
+	width: 75px;
+	height: 47px;
 	z-index: 101;
 }
 
@@ -83,12 +134,47 @@ h1 {
 	font-weight: 500;
 	font-size: 8em;
 	letter-spacing: -5px;
-	color: hsla(56, 98%, 52%, 0.71);
-	width: 400px;
+	color: hsla(56, 98%, 52%, 0.65);
+	width: 700px;
 	height: 100px;
-	margin: 0px 0px 0px 200px;
+	margin: 0px 0px 0px 0px;
 	padding: 0px;
+}
 
+.lgtitle {
+	font-family: breuer;
+	font-weight: 500;
+	font-size: 12em;
+	letter-spacing: -8px;
+	color: hsla(56, 98%, 52%, 0.65);
+	width: 700px;
+	height: 150px;
+	margin: -70px 0px 0px 0px;
+	padding: 0px;
+}
+
+.smtitle {
+	font-family: breuer;
+	font-weight: 500;
+	font-size: 6em;
+	letter-spacing: -3px;
+	color: hsla(56, 98%, 52%, 0.65);
+	width: 500px;
+	height: 100px;
+	margin: 0px 0px 0px 95px;
+	padding: 0px;
+}
+
+.learnmore {
+	font-family: breuer;
+	font-weight: 100;
+	font-size: 1em;
+	letter-spacing: 0px;
+	color: hsla(56, 98%, 52%, 0.65);
+	width: 75px;
+	height: 20px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
 }
 
 h2 {
@@ -142,7 +228,7 @@ h4 {
 h5 {
 	font-family: breuer;
 	font-weight: 100;
-	font-size: 1.2em;
+	font-size: 1em;
 	letter-spacing: 0px;
 	color: #272727;
 	width: 100%;
@@ -189,28 +275,18 @@ h5 {
 
 }
 
+a:hover {
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
 
 footer {
 	height: 70px;
 	width: 100%;
 	background-color: #272727;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
