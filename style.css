@@ -1,6 +1,6 @@
-/**{
+*{
 		outline:1px solid red;
-	}*/
+	}
 
 html body{
 	width: 100%;
@@ -72,6 +72,24 @@ body {
 	z-index: 1;
 }
 
+.shopcover {
+	background: url(img/shopcover.png) no-repeat center;
+	background-size: cover;
+	border-top: 0px solid #ffe400;
+	width: 100%;
+	height: 1010px;
+	z-index: 1;
+}
+
+.trainingcover {
+	background: url(img/trainingcover.png) no-repeat center;
+	background-size: cover;
+	border-top: 0px solid #ffe400;
+	width: 100%;
+	height: 1010px;
+	z-index: 1;
+}
+
 .sidenav {
 	position: fixed;
 	background-color: hsla(56, 98%, 52%, 0.65);
@@ -130,6 +148,20 @@ li {
 	width: 700px;
 }
 
+.logintitle{
+	position: absolute;
+	margin: 12% 0px 0px 43%;
+	z-index: 99;
+	width: 700px;
+}
+
+.trainingtitle{
+	position: absolute;
+	margin: 27.5% 0px 0px 51%;
+	z-index: 99;
+	width: 700px;
+}
+
 .learnmorebox{
 	position: absolute;
 	margin: 49% 0px 0px 48%;
@@ -137,6 +169,31 @@ li {
 	height: 47px;
 	z-index: 101;
 }
+
+.createaccountbox{
+	position: absolute;
+	margin: 39% 0px 0px 48%;
+	width: 175px;
+	height: 17px;
+	z-index: 101;
+}
+
+.planlinks{
+	position: absolute;
+	margin: 46.5% 0px 0px 40.2%;
+	width: 20%;
+	height: 8%;
+	z-index: 101;
+}
+
+.planbox{
+	float: left;
+	margin: 0% 0px 0px 10.5%;
+	width: 75px;
+	height: 80px;
+	z-index: 101;
+}
+
 
 h1 {
 	font-family: breuer;
@@ -172,6 +229,37 @@ h1 {
 	height: 100px;
 	margin: 0px 0px 0px 95px;
 	padding: 0px;
+}
+
+.smlogin {
+	margin: -10px 0px 0px 23%;
+	padding: 0px;
+}
+
+.lgtraining {
+	width: 700px;
+	height: 150px;
+	margin: -70px 0px 0px 0px;
+	padding: 0px;
+}
+
+.smplans {
+	width: 500px;
+	height: 100px;
+	margin: -13px 0px 0px 95px;
+}
+
+.lgprotein {
+	width: 700px;
+	height: 150px;
+	margin: 170px 0px 0px 60px;
+	padding: 0px;
+}
+
+.smapparel {
+	width: 500px;
+	height: 100px;
+	margin: -11.5px 0px 0px 190px;
 }
 
 .lgchamp {
@@ -224,6 +312,14 @@ h1 {
 	height: 20px;
 	margin: 0px 0px 0px 0px;
 	padding: 0px;
+	text-align: center;
+}
+
+.createaccount {
+	width: 175px;
+	height: 20px;
+	margin: 0px 0px 0px 0px;
+
 }
 
 h2 {
@@ -269,7 +365,7 @@ h4 {
 	height: 570px;
 	margin: 0 auto;
 	margin-top: 7px;
-	/*text-align: center;*/
+	text-align: center;
 	padding: 0px;
 	/*text-transform: uppercase;*/
 	line-height: 1em;
@@ -319,6 +415,11 @@ h5 {
 	margin-top:100px;
 }
 
+.buybox {
+	margin-top:100px;
+	height: 570px;
+}
+
 .starttext{
 	height: 1050px;	
 }
@@ -340,9 +441,19 @@ h5 {
 	width: 65px;
 }
 
+.plantitleicon{
+	margin: 0px 0px 0px 7%;
+	width: 65px;
+}
+
+.proteinpic{
+	margin: 0px 0px 0px 0%;
+	width: 100%;
+}
+
 .plantitle {
 	height: 30px;
-	font-size: 2.5em;
+	font-size: 2.4em;
 	font-weight: 400;
 	color:#837f31;
 }
@@ -351,6 +462,14 @@ h5 {
 	font-size: 1.6em;
 	margin: 20px 0px 0px 0px;
 	height: 100px;
+}
+
+.featureblacktext {
+/*	color: hsla(360, 100%, 100%, 0.20);*/
+	font-size: 1.6em;
+	margin: 20px 0px 0px 0px;
+	height: 100px;
+	color:#837f31;
 
 	}
 
@@ -366,6 +485,21 @@ h5 {
 	height: 400px;
 }
 
+.sellprotein{
+	padding-top: 25px;
+	height: 600px;
+}
+
+.sellplan{
+	padding-top: 140px;
+	height: 600px;
+}
+
+.sellshirts{
+	padding-top: 25px;
+	height: 2450px;
+}
+
 .blacktriangles{
 	background-color: #111111;
 	width: 100%;
@@ -373,13 +507,69 @@ h5 {
 
 }
 
-a:hover {
-	text-decoration: none;
-	font-size: 1.2em;
-	font-weight: 400;
+.proteinc{
+	height: 540px;
+
+}
+
+.planc{
+	height: 180px;
+
+}
+
+.shirtc{
+	height: 760px;
+
+}
+
+.purchasetext{
+	height: 260px;
 }
 
 
+
+.addcart{
+	font-size: 3em;
+	width: 270px;
+	height: 65px;
+	padding: 15px;
+	/*text-transform: uppercase;*/
+	border: solid 1px #111111;
+	color: #111111;
+}
+
+form{
+	position: absolute;
+	z-index: 99;
+	margin: 450px 0px 0px 800px;
+}
+
+input{
+	width: 500px;
+	height: 80px;
+	background-color: hsla(56, 98%, 52%, 0.15);
+
+}
+
+
+a:hover {
+	text-decoration: none;
+	/*font-size: 1.2em;*/
+	font-weight: 400;
+	color: #ffffff;
+}
+
+/*a:hover .purchasehover{
+	color: #ffffff;
+	border: solid 1px #ffffff;
+	
+}*/
+
+/*a:hover {
+	color: #ffffff;
+	border: solid 1px #ffffff;
+}
+*/
 footer {
 	height: 70px;
 	width: 100%;
