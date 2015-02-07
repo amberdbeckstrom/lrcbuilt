@@ -116,11 +116,11 @@ button,
 input,
 optgroup,
 select,
-textarea {
+/*textarea {
   color: inherit;
   font: inherit;
   margin: 0;
-}
+}*/
 button {
   overflow: visible;
 }
@@ -216,11 +216,11 @@ body {
 input,
 button,
 select,
-textarea {
+/*textarea {
   font-family: breuer;
   font-size: inherit;
   line-height: inherit;
-}
+}*/
 /*a {
   color: #337ab7;
   text-decoration: none;

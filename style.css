@@ -1,7 +1,7 @@
 /**{
 		outline:1px solid red;
-	}
-*/
+	}*/
+
 html body{
 	width: 100%;
 	margin:0;
@@ -427,6 +427,34 @@ h5 {
 	height: 55px;
 }
 
+.smbtnsubmit {
+	float: right;
+	margin: -78px 0px 0px 0px;
+	height: 75px;
+	width: 270px;
+	border-left: solid 1px #837f31;
+}
+
+.contacttext{
+	height: 250px;	
+}
+
+.textmessage{
+	margin-top: 20px;
+	height: 460px;
+	border-top: solid 1px #837f31;
+
+}
+
+textarea{
+	font-family: breuer;
+	font-size: 3em;
+	line-height: 1.2em;
+	margin-top: 20px;
+	width: 1140px;
+	height: 350px;
+	border: none;
+}
 
 
 .starttext{
@@ -473,6 +501,14 @@ h5 {
 	width: 45%;
 }
 
+.headquarters{
+	float: left;
+	margin: -23px 0px 0px 0%;
+	padding: 0px;
+	width: 100%;
+	height: 730px;
+}
+
 
 .plantitle {
 	height: 30px;
@@ -511,6 +547,22 @@ h5 {
 	font-weight: 400;
 	text-align: left;
 	color:#837f31;
+}
+
+.phone {
+	float: left;
+	margin: 44px 0px 0px 30px;
+	height: 30px;
+	width:23%;
+	font-size: 1.7em;
+	font-weight: 400;
+	text-align: left;
+	color:#837f31;
+}
+
+.phone3 {
+	width:45%;
+margin: 44px 0px 0px 3%;
 }
 
 .plantext {
@@ -572,6 +624,12 @@ h5 {
 }
 
 .shirtcontainer{
+	padding-top: 25px;
+	height: 750px;
+}
+
+.contactontainer{
+	border-top: 1px solid #837f31;
 	padding-top: 25px;
 	height: 750px;
 }
@@ -672,6 +730,18 @@ h5 {
 	height: 260px;
 }
 
+.contactcontainer{
+	margin-top: 0px;
+	height: 460px;
+	padding: 0px;
+}
+
+.headquartercontainer{
+	margin-top: 30px;
+	height: 720px;
+	padding: 0px;
+}
+
 .purchaseprocesscontainer{
 	margin-top: 100px;
 	height: 600px;
@@ -682,6 +752,16 @@ h5 {
 	margin-top: 0px;
 	height: 390px;
 	padding: 0px;
+}
+
+.purchaseprocesscontact{
+	margin: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 110px;
+	border-top: solid 1px #837f31;
+	border-bottom: solid 1px #837f31;
 }
 
 .purchaseprocess{
@@ -717,6 +797,19 @@ h5 {
 	font-size: 1.6em;
 	width: 168px;
 	height: 40px;
+	padding: 10px;
+	/*text-transform: uppercase;*/
+	border: solid 1px #111111;
+	color: #111111;
+}
+
+.submitsm{
+	float: left;
+	font-size: 1.6em;
+	width: 168px;
+	height: 40px;
+	margin-top: 18px;
+	margin-left: 40px;
 	padding: 10px;
 	/*text-transform: uppercase;*/
 	border: solid 1px #111111;
@@ -774,7 +867,15 @@ h5 {
 	margin: 45% 0px 0px 46%;
 }
 
-form{
+/*form{
+	position: absolute;
+	z-index: 99;
+	margin: 450px 0px 0px 800px;
+	width: 400px;
+	height: 400px;
+}*/
+
+.firstlogin{
 	position: absolute;
 	z-index: 99;
 	margin: 450px 0px 0px 800px;
@@ -833,6 +934,15 @@ input:focus.purchasebox {
     color: #333333;
 }
 
+textarea:focus{
+	box-shadow: none;
+	outline: none !important;
+	
+}
+
+
+
+
 .purchasebox2 { 
     background-color: #ffffff;
     border-left: solid 1px #837f31;
@@ -842,6 +952,7 @@ input:focus.purchasebox {
     outline: none !important;
     box-shadow: none;
     color: #333333;
+  
 }
 
 input:focus.purchasebox3 { 
