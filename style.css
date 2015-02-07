@@ -1,6 +1,6 @@
-*{
+/**{
 		outline:1px solid red;
-	}
+	}*/
 
 html body{
 	width: 100%;
@@ -186,6 +186,21 @@ h1 {
 	padding: 0px;
 }
 
+.lgbuilt {
+	font-family: breuer;
+	font-weight: 500;
+	font-size: 12em;
+	letter-spacing: -8px;
+	/*color: hsla(56, 98%, 52%, 0.65);*/
+	color: hsla(0, 0%, 0%, 0.97);
+	width: 100%;
+	height: 500px;
+	margin: 0px 0px 0px 0px;
+	padding: 150px;
+	line-height: .65em;
+	text-align: center;
+}
+
 .smchamp {
 	font-family: breuer;
 	font-weight: 500;
@@ -330,11 +345,25 @@ h5 {
 	font-size: 2.5em;
 	font-weight: 400;
 	color:#837f31;
-
 }
 
+.plantext {
+	font-size: 1.6em;
+	margin: 20px 0px 0px 0px;
+	height: 100px;
+
+	}
+
+.viewplan{
+	font-size: 1.4em;
+	margin: 0px 0px 0px 0px;
+	height: 30px;
+
+	}
+
 .plans{
-	height: 500px;
+	padding-top: 25px;
+	height: 400px;
 }
 
 .blacktriangles{
@@ -354,7 +383,7 @@ a:hover {
 footer {
 	height: 70px;
 	width: 100%;
-	background-color: #272727;
+	background-color: #111111;
 }
 
 
