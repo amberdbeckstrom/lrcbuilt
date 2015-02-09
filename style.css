@@ -1,6 +1,6 @@
-*{
+/**{
 		outline:1px solid red;
-	}
+	}*/
 
 html body{
 	width: 100%;
@@ -1129,6 +1129,93 @@ h4 {
 
 }
 
+.headquartercontainer{
+	margin-top: 30px;
+	height: 600px;
+	width: 900px;
+}
+
+.headquarters{
+	height: 600px;
+}
+
+.textmessage{
+	width: 900px;
+}
+
+textarea{
+	width: 900px;
+	height: 350px;
+}
+
+.contactcontainer{
+	width: 900px;
+}
+
+.phone3 {
+	width:30%;
+	margin: 44px 0px 0px 3%;
+}
+
+.phone {
+	margin: 44px 0px 0px 6%;
+}
+
+.lgtitle {
+	margin: -70px 0px 0px -16px;
+	padding: 0px;
+}
+
+.logintitle{
+	margin: 13% 0px 0px 41.5%;
+	width: 600px;
+}
+
+.firstlogin{
+	margin: 27% 0px 0px 40%;
+	width: 400px;
+	height: 400px;
+}
+
+.createaccountbox{
+	margin: 41% 0px 0px 48.5%;
+}
+
+
+.loginbtn{
+	margin: 50% 0px 0px 44.5%;
+}
+
+.accountcover {
+	background: url(img/accountcover.png) no-repeat center;
+	height: 835px;
+}
+
+.purchasecart{
+	width: 900px;
+}
+
+.totalrow{
+	width: 900px;
+}
+
+.purchaseprocesscontainer{
+	width: 900px;
+}
+
+.purchaseprocesscontainer2{
+	width: 900px;
+}
+
+.purchasebox { 
+	width: 50%;
+}
+
+.purchasebox2 { 
+	width: 40%;
+}
+
+
 
 
 }
@@ -1311,6 +1398,8 @@ h3 {
 	margin: -39px 0px 0px 5.3%;
 	padding: 0px;
 }
+
+
 
 
 }
