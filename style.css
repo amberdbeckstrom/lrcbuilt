@@ -724,7 +724,6 @@ margin: 44px 0px 0px 3%;
 	margin:0;
 	border-bottom: 1px solid hsla(0, 0%, 0%, 0.24);
 	margin-bottom: 30px;
-
 }
 
 .purchasebtncart{
@@ -1062,6 +1061,10 @@ footer {
 	width: 700px;
 }
 
+.proteincovertitle{
+	margin: 35% 0px 0px 22%;
+}
+
 .learnmorebox{
 	position: absolute;
 	margin: 54% 0px 0px 48%;
@@ -1084,6 +1087,10 @@ h4 {
 	width: 75%;
 	height: 310px;
 	line-height: 1em;
+}
+
+.planinfotext {
+	margin-bottom: 50px;
 }
 
 .firstwords {
@@ -1178,7 +1185,7 @@ textarea{
 }
 
 .createaccountbox{
-	margin: 41% 0px 0px 48.5%;
+	margin: 41% 0px 0px 47.5%;
 }
 
 
@@ -1213,6 +1220,60 @@ textarea{
 
 .purchasebox2 { 
 	width: 40%;
+}
+
+.trainingtitle{
+	margin: 30% 0px 0px 51%;
+}
+
+.trainingcover {
+	background: url(img/trainingcover.png) no-repeat center;
+	height: 835px;
+}
+
+.sellplan{
+	width: 70%;
+}
+
+.sellprotein{
+	width: 80%;
+}
+
+.sellshirts{
+	height: 2150px;
+	width: 70%;
+}
+
+.planlinks{
+	margin: 50% 0px 0px 37.7%;
+	width: 23%;
+}
+
+.shopcover {
+	background: url(img/shopcover.png) no-repeat center;
+	height: 835px;
+}
+
+.shirtc{
+	height: 660px;
+}
+
+.moreshirts {
+	width: 70%;
+}
+
+.shirtcontainer{
+	padding-top: 25px;
+	height: 650px;
+	width: 70%;
+}
+
+.shirtbox{
+	height: 600px;
+	width: 100%;
+	margin:0;
+	border-bottom: 1px solid hsla(0, 0%, 0%, 0.24);
+	margin-bottom: 30px;
 }
 
 
