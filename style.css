@@ -513,6 +513,10 @@ textarea{
 	height: 1050px;	
 }
 
+.thankyoutext{
+	height: 600px;	
+}
+
 .championtitle{
 	margin: 190px 0px 0px 845px;
 }
@@ -1177,12 +1181,13 @@ textarea{
 }
 
 .phone3 {
-	width:30%;
-	margin: 44px 0px 0px 3%;
+	width: 35%;
+	margin: 0px 0px 0px 0%;
 }
 
 .phone {
-	margin: 44px 0px 0px 6%;
+	width:29%;
+	margin: 44px 0px 0px 4%;
 }
 
 .lgtitle {
@@ -1373,6 +1378,7 @@ h4 {
 .starttext{
 	height: 900px;	
 }
+
 
 .championtitle{
 	margin: 15.5% 0px 0px 47%;
