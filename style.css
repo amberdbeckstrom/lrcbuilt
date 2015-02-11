@@ -245,6 +245,23 @@ h1 {
 	padding: 0px;
 }
 
+.createtitle {
+	font-family: breuer;
+	font-weight: 500;
+	font-size: 12em;
+	letter-spacing: -8px;
+	color: hsla(56, 98%, 52%, 0.65);
+	width: 700px;
+	height: 150px;
+	margin: -10% 0px 0px -8.5%;
+	padding: 0px;
+}
+
+.smaccount {
+	margin: -10px 0px 0px 6.2%;
+	padding: 0px;
+}
+
 .lgtraining {
 	width: 700px;
 	height: 150px;
@@ -1274,6 +1291,14 @@ textarea{
 	margin:0;
 	border-bottom: 1px solid hsla(0, 0%, 0%, 0.24);
 	margin-bottom: 30px;
+}
+
+.createtitle {
+	margin: -10% 0px 0px -11%;
+}
+
+.smaccount {
+	margin: -10px 0px 0px 6.2%;
 }
 
 
