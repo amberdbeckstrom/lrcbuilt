@@ -1337,14 +1337,27 @@ textarea{
 
 .covertitle{
 	position: absolute;
-	margin: 13% 0px 0px 23%;
+	margin: 34.5% 0px 0px 5%;
 	z-index: 99;
 	width: 700px;
 }
 
+.lgtitle {
+	font-size: 6em;
+	letter-spacing: -4px;
+	margin: -78px 0px 0px 0px;
+}
+
+.smtitle {
+	font-size: 3.5em;
+	letter-spacing: -2px;
+	width: 500px;
+	margin: 0px 0px 0px 95px;
+}
+
 .learnmorebox{
 	position: absolute;
-	margin: 54% 0px 0px 48%;
+	margin: 112% 0px 0px 48%;
 	width: 75px;
 	height: 47px;
 	z-index: 101;
@@ -1353,7 +1366,7 @@ textarea{
 .homecover {
 	background: url(img/homecover.png) no-repeat center;
 	background-size: cover;
-	height: 850px;
+	height: 667px;
 
 }
 
@@ -1436,12 +1449,6 @@ h3 {
 	height: 50px;
 }
 
-.col-lg-3{
-	width: 60%;
-	margin: 0px 0px 0px 20%;
-	margin-bottom: 10%
-}
-
 .kylecover {
 	background: url(img/kylecover.png) no-repeat center;
 	background-size: cover;
@@ -1451,14 +1458,10 @@ h3 {
 	z-index: 1;
 }
 
-.championtitle{
-	margin: 62% 0px 0px 2%;
-	width: 520px;
-}
 
 .championtext{
-	margin: 90% 5% 0px 8%;
-	width: 470px;
+	margin: 60% 5% 0px 38%;
+	width: 305px;
 }
 
 .goldfour {
@@ -1466,15 +1469,20 @@ h3 {
 	height: 100px;
 }
 
+.championtitle{
+	margin: 38% 0px 0px 32%;
+	width: 520px;
+}
+
 .smchamp {
 	font-family: breuer;
 	font-weight: 500;
-	font-size: 4em;
-	letter-spacing: -3px;
+	font-size: 3.5em;
+	letter-spacing: -2px;
 	color: hsla(56, 98%, 52%, 0.65);
 	width: 185px;
 	height: 60px;
-	margin: 0px 0px 0px 40%;
+	margin: 0px 0px 0px 30%;
 	padding: 0px;
 }
 
@@ -1482,13 +1490,24 @@ h3 {
 .lgchamp {
 	font-family: breuer;
 	font-weight: 500;
-	font-size: 8em;
-	letter-spacing: -8px;
+	font-size: 5.5em;
+	letter-spacing: -4px;
 	color: hsla(56, 98%, 52%, 0.65);
 	width: 450px;
 	height: 150px;
-	margin: -39px 0px 0px 5.3%;
+	margin: -35px 0px 0px 5.3%;
 	padding: 0px;
+}
+
+.plans{
+	padding-top: 30px;
+	height: 1100px;
+}
+
+.col-lg-3{
+	width: 60%;
+	margin: 0px 0px 0px 20%;
+	margin-bottom: 17%
 }
 
 
