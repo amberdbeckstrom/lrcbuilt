@@ -1,7 +1,7 @@
 /**{
 		outline:1px solid red;
-	}*/
-
+	}
+*/
 html body{
 	width: 100%;
 	margin:0;
@@ -101,7 +101,7 @@ body {
 
 .sidenav {
 	position: fixed;
-	background-color: hsla(56, 98%, 52%, 0.65);
+	background: hsla(56, 98%, 52%, 0.65);
 	margin: 0px 0px 0px 7%;
 	width: 160px;
 	height: 100%;
@@ -495,7 +495,6 @@ h5 {
 	margin-top: 20px;
 	height: 460px;
 	border-top: solid 1px #837f31;
-
 }
 
 textarea{
@@ -712,7 +711,6 @@ margin: 44px 0px 0px 3%;
 	background-color: #111111;
 	width: 100%;
 	height: 500px;
-
 }
 
 .blacktrianglesfooter{
@@ -722,7 +720,7 @@ margin: 44px 0px 0px 3%;
 }
 
 .proteinc{
-	height: 540px;
+	height: 570px;
 
 }
 
@@ -756,7 +754,7 @@ margin: 44px 0px 0px 3%;
 	float: left;
 	height: 257px;
 	width: 55%;
-	margin:40px 0px 0px 80px;
+	margin: 15px 0px 0px 80px;
 }
 
 .shirtinfo{
@@ -864,6 +862,25 @@ margin: 44px 0px 0px 3%;
 	color: #111111;
 }
 
+.addcartprotein{
+	position: relative;
+	font-size: 1.6em;
+	width: 168px;
+	height: 40px;
+	padding: 10px;
+	margin: 0% 0% 0% 0%;
+	/*text-transform: uppercase;*/
+	border: solid 1px #111111;
+	color: #111111;
+}
+
+.smbtnprotein {
+	float: left;
+	margin:0px 0px 0px 15%;
+	height: 55px;
+}
+
+
 .submitsm{
 	float: left;
 	font-size: 1.6em;
@@ -893,6 +910,13 @@ margin: 44px 0px 0px 3%;
 	clear: both;
 }
 
+.sizequantitycart{
+	float: left;
+	width: 190px;
+	height: 60px;
+	margin: 12px 0px 0px -10px;
+}
+
 .shirtsizebox{
 	float: left;
 	margin-left: 10px;
@@ -901,6 +925,7 @@ margin: 44px 0px 0px 3%;
 	margin-top:10px;
 	border: 1px solid #837f31;
 }
+
 .shirtsize{
 	float: left;
 	font-size: 1.5em;
@@ -1151,7 +1176,7 @@ h4 {
 	font-family: breuer;
 	font-weight: 500;
 	font-size: 12em;
-	width: 100%;
+	width: 97%;
 	height: 500px;
 	margin: 0px 0px 0px 1.8%;
 
@@ -1510,8 +1535,326 @@ h3 {
 	margin-bottom: 17%
 }
 
+.accountcover {
+	background: url(img/accountcover.png) no-repeat center;
+	height: 667px;
+}
+
+.firstlogin{
+	margin: 40% 0px 0px 13%;
+	width: 400px;
+	height: 400px;
+}
+
+.loginbtn{
+	margin: 102% 0px 0px 24.5%;
+}
+
+.createaccountbox{
+	margin: 79% 0px 0px 34.5%;
+}
+
+.logintitle{
+	margin: 27% 0px 0px 32%;
+	width: 200px;
+}
+
+.lglogin {
+	font-size: 6em;
+	letter-spacing: -4px;
+	margin: -78px 0px 0px 0px;
+	width: 200px;
+	height: 100px;
+}
+
+.smlogin {
+	margin: -30px 0px 0px 35%;
+	width: 170px;
+	height: 50px;
+}
+
+.createtitle {
+	margin: -37% 0px 0px -11%;
+	width: 200px;
+}
+
+.smaccount {
+	margin: -80px 0px 0px 6.2%;
+	width: 200px;
+	height: 70px;
+}
+
+.trainingcover {
+	background: url(img/trainingcover.png) no-repeat center;
+	height: 667px;
+}
+
+.trainingtitle{
+	margin: 39% 0px 0px 40%;
+	width: 300px;
+}
+
+.lgtraining {
+	width: 290px;
+	height: 100px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+.smplans {
+	width: 150px;
+	height: 50px;
+	margin: -32px 0px 0px 95px;
+}
+
+.planlinks{
+	margin: 100% 0px 0px 14%;
+	width: 74%;
+}
+
+.starttext{
+	height: 980px;	
+}
+
+.blacktriangles{
+	background-color: #111111;
+	width: 100%;
+	height: 900px;
+}
+
+.sellplan{
+	padding-top: 90px;
+	height: 900px;
+}
+
+.addcart{
+	font-size: 3em;
+	width: 270px;
+	height: 65px;
+	padding: 15px;
+	margin: 8% 0% 0% 20%;
+	border: solid 1px #111111;
+	color: #111111;
+}
+
+.purchasetext{
+	margin-top: 30px;
+	height: 310px;
+}
+
+.headquarters{
+	height: 370px;
+}
+
+.headquartercontainer{
+	margin-top: 30px;
+	height: 370px;
+	width: 90%;
+}
+
+.textmessage{
+	width: 90%;
+}
+
+textarea{
+	width: 95%;
+	height: 430px;
+}
+
+.contactcontainer{
+	width: 90%;
+}
+
+.phone {
+	width:90%;
+	margin: 22px 0px 0px 4%;
+}
+
+.phone3 {
+	width: 55%;
+	margin: 22px 0px 0px 4%;
+}
+
+.purchaseprocess2{
+	margin: 0px;
+	margin-top: 100px;
+	padding: 0px;
+	width: 100%;
+	height: 202px;
+	border-bottom: solid 1px #837f31;
+	border-top: solid 1px #837f31;
+}
+
+.smbtnsubmit {
+	float: left;
+	margin: 20px 0px 0px 0px;
+	height: 75px;
+	width: 100%;
+	border-left: solid 1px #837f31;
+	clear: both;
+}
+
+.submitsm{
+	float: left;
+	font-size: 1.6em;
+	width: 168px;
+	height: 40px;
+	margin-top: 27px;
+	margin-left: 32%;
+	padding: 10px;
+	/*text-transform: uppercase;*/
+	border: solid 1px #111111;
+	color: #111111;
+}
+
+.shopcover {
+	background: url(img/shopcover.png) no-repeat center;
+	height: 667px;
+}
+
+.sellprotein{
+	height: 1830px;
+}
+
+.sellshirts{
+	padding-top: 25px;
+	height: 4050px;
+}
+
+.proteincovertitle{
+	margin: 50% 0px 0px 9%;
+	width: 300px;
+}
+
+.lgprotein {
+	width: 290px;
+	height: 100px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+.smapparel {
+	width: 225px;
+	height: 100px;
+	margin: -32px 0px 0px 95px;
+}
+
+.shirtcontainer{
+	padding-top: 25px;
+	height: 650px;
+	width: 90%;
+}
 
 
+.shirtbox{
+	height: 1080px;
+	width: 100%;
+	margin:0;
+	border-bottom: 1px solid hsla(0, 0%, 0%, 0.24);
+	margin-bottom: 30px;
+}
+
+.shirtinfo{
+	float: left;
+	height: 457px;
+	width: 100%;
+	margin:40px 0px 0px 0px;
+}
+
+.moreshirts {
+	width: 70%;
+	margin-top: 460px;
+	height: 990px;
+}
+
+
+.smshirtc{
+	height: 250px;
+	margin-top: 50px;
+}
+
+.shirtpage{
+	float: left;
+	margin: 0px 0px 0px 0%;
+	padding: 0px;
+	width: 100%;
+}
+
+.shirtsizebox{
+	float: left;
+	margin-left: 10px;
+	width: 50px;
+	height: 40px;
+	margin-top:10px;
+	border: 1px solid #837f31;
+}
+
+.purchaserow{
+	height: 600px;
+	width: 100%;
+	margin:0;
+	border-bottom: 1px solid hsla(0, 0%, 0%, 0.24);
+	margin-bottom: 30px;
+}
+
+.proteinpic2{
+	float: left;
+	margin: 0px 0px 0px 23%;
+	width: 55%;
+}
+
+.purchaseinfo{
+	float: left;
+	height: 237px;
+	width: 95%;
+	margin:40px 0px 0px 0px;
+}
+
+.purchasecart{
+	padding-top: 25px;
+	height: 2000px;
+	border-top: 1px solid #837f31;
+	/*border-bottom: 1px solid #837f31;*/
+}
+
+.totaltitle {
+	margin:27px 0px 0px 0px;
+	width: 20%;
+}
+
+.totalnumber {
+	margin: 27px 0px 0px 0px;
+	width: 15%;
+}
+
+.purchaseprocesscontainer{
+	margin-top: 100px;
+	height: 600px;
+	padding: 0px;
+}
+
+.plantitlecart {
+	margin-left: 0px;
+}
+
+.purchaseprocess{
+	margin: 0px;
+	margin-top: 60px;
+	padding: 0px;
+	width: 100%;
+	height: 110px;
+	border-top: solid 1px #837f31;
+	border-bottom: solid 1px #837f31;
+}
+
+.purchaseprocess2{
+	margin: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 110px;
+	border-bottom: solid 1px #837f31;
+}
 
 }
 
@@ -1523,9 +1866,606 @@ h3 {
 
 @media (max-width: 320px) and (orientation: portrait) {
 
-.covertitle{
+.logo{
 	display:none;
+
 }
+
+.sidenav {
+	margin: 0px 0px 0px 4%;
+} 
+
+/*.logo{
+	position: fixed;
+	left: 6.8%;
+	width: 80px;
+}*/
+
+body{
+	width: 320px;
+}
+
+.headericonbox{
+	width: 305px;
+
+}
+
+.covertitle{
+	position: absolute;
+	margin: 50% 0px 0px 7%;
+	z-index: 99;
+	width: 250px;
+	height: 110px;
+}
+
+.lgtitle {
+	width: 270px;
+	height: 100px;
+	font-size: 5em;
+	letter-spacing: -4px;
+	margin: -79px 0px 0px 0px;
+}
+
+.smtitle {
+	font-size: 3em;
+	letter-spacing: -2px;
+	width: 220px;
+	margin: 0px 0px 0px 40px;
+}
+
+.learnmorebox{
+	position: absolute;
+	margin: 152% 0px 0px 41%;
+	width: 75px;
+	height: 47px;
+	z-index: 101;
+}
+
+.homecover {
+	background: url(img/homecover.png) no-repeat center;
+	background-size: cover;
+	height: 568px;
+
+}
+
+h4 {
+	font-family: breuer;
+	font-weight: 100;
+	font-size: 2.3em;
+	width: 95%;
+	height: 370px;
+	line-height: 1em;
+}
+
+.firstwords {
+	font-family: breuer;
+	font-weight: 100;
+	font-size: 2.3em;
+	width: 95%;
+	height: 200px;
+	line-height: 1em;
+}
+
+.starttext{
+	height: 955px;
+	width: 320px;	
+}
+
+
+.championtitle{
+	margin: 15.5% 0px 0px 47%;
+}
+
+.championtext{
+	margin: 31% 0px 0px 47.8%;
+}
+
+.plans{
+	width: 78%;
+	/*margin: 0px 0px 0px 20%;*/
+
+}
+
+.lgbuilt {
+	font-weight: 500;
+	font-size: 6em;
+	width: 100%;
+	height: 247px;
+	margin: 0px 0px 0px 0%;
+	padding: 16% 0px 0px 0px;
+}
+
+.blacktrianglesfooter{
+	background-color: #111111;
+	width: 100%;
+	height: 250px;
+}
+
+.container{
+	width: 320px;
+	/*margin: 0px;*/
+}
+
+.viewplan{
+	font-size: 1.4em;
+	margin: 0px 0px 0px 8.5%;
+	height: 30px;
+
+	}
+
+.headericon{
+	margin: 0px 0px 0px 41%;
+	width: 16%;
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 4em;
+	width: 85%;
+	height: 95px;
+}
+
+.twophone {
+	font-weight: 500;
+	font-size: 3.5em;
+	width: 100%;
+	height: 87px;
+}
+
+h3 {
+	font-size: 1.5em;
+	height: 30px;
+	margin-top: 0px;
+	width: 80%;
+}
+
+.phonedisplay{
+	display: none;
+}
+
+.intense{
+	height: 50px;
+}
+
+.kylecover {
+	background: url(img/kylecover.png) no-repeat center;
+	background-size: cover;
+	border-top: 0px solid #ffe400;
+	width: 100%;
+	height: 568px;
+	z-index: 1;
+}
+
+
+.championtext{
+	margin: 90% 5% 0px 2%;
+	width: 305px;
+	font-size: .9em;
+}
+
+.goldfour {
+	font-size: 2.5em;
+	height: 100px;
+}
+
+.championtitle{
+	margin: 38% 0px 0px 2%;
+	width: 320px;
+}
+
+.smchamp {
+	font-family: breuer;
+	font-weight: 500;
+	font-size: 3em;
+	letter-spacing: -2px;
+	color: hsla(56, 98%, 52%, 0.65);
+	width: 185px;
+	height: 60px;
+	margin: 20% 0px 0px 40%;
+	padding: 0px;
+}
+
+
+.lgchamp {
+	font-family: breuer;
+	font-weight: 500;
+	font-size: 5em;
+	letter-spacing: -4px;
+	color: hsla(56, 98%, 52%, 0.65);
+	width: 305px;
+	height: 100px;
+	margin: -40px 0px 0px 0%;
+	padding: 0px;
+}
+
+.plans{
+	padding-top: 30px;
+	height: 1000px;
+}
+
+.col-lg-3{
+	width: 100%;
+	margin: 0px 0px 0px 0%;
+	margin-bottom: 17%
+}
+
+.accountcover {
+	background: url(img/accountcover.png) no-repeat center;
+	height: 568px;
+}
+
+.firstlogin{
+	margin: 45% 0px 0% 5.5%;
+	width: 88%;
+	height: 220px;
+}
+
+.loginbtn{
+	margin: 144% 0px 0px 8%;
+}
+
+.createaccountbox{
+	margin: 115% 0px 0px 23.7%;
+}
+
+.logintitle{
+	margin: 31% 0px 0px 21.5%;
+	width: 200px;
+}
+
+.lglogin {
+	font-size: 6em;
+	letter-spacing: -4px;
+	margin: -78px 0px 0px 0px;
+	width: 200px;
+	height: 100px;
+}
+
+.smlogin {
+	margin: -30px 0px 0px 35%;
+	width: 170px;
+	height: 50px;
+}
+
+.createtitle {
+	margin: -37% 0px 0px -11%;
+	width: 200px;
+}
+
+.smaccount {
+	margin: -45px 0px 0px 2%;
+	width: 200px;
+	height: 70px;
+}
+
+.trainingcover {
+	background: url(img/trainingcover.png) no-repeat center;
+	height: 568px;
+}
+
+.trainingtitle{
+	margin: 30% 0px 0px 19%;
+	width: 243px;
+}
+
+.lgtraining {
+	width: 230px;
+	height: 100px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+.smplans {
+	width: 150px;
+	height: 50px;
+	margin: -45px 0px 0px 95px;
+}
+
+.planlinks{
+	margin: 140% 0px 0px 0%;
+	width: 100%;
+}
+
+.blacktriangles{
+	background-color: #111111;
+	width: 100%;
+	height: 850px;
+}
+
+.sellplan{
+	padding-top: 90px;
+	height: 850px;
+}
+
+.addcart{
+	font-size: 3em;
+	width: 270px;
+	height: 65px;
+	padding: 15px;
+	margin: 8% 0% 0% 20%;
+	border: solid 1px #111111;
+	color: #111111;
+	margin: 3% 0% 0% 3.6%;
+}
+
+.purchasetext{
+	margin-top: 30px;
+	height: 310px;
+}
+
+.headquarters{
+	height: 210px;
+}
+
+.headquartercontainer{
+	margin-top: 70px;
+	height: 220px;
+	width: 90%;
+}
+
+.textmessage{
+	width: 90%;
+	height: 340px;
+}
+
+textarea{
+	font-family: breuer;
+	font-size: 2em;
+	line-height: 1em;
+	width: 95%;
+	height: 300px;
+}
+
+.contactcontainer{
+	width: 90%;
+	height: 640px;
+}
+
+.phone {
+	width:90%;
+	height: 80px;
+	margin: 22px 0px 0px 4%;
+}
+
+.phone3 {
+	width: 90%;
+	height: 80px;
+	margin: 22px 0px 0px 4%;
+}
+
+.purchaseprocess2{
+	margin: 0px;
+	margin-top: 430px;
+	padding: 0px;
+	width: 100%;
+	height: 502px;
+	border-bottom: solid 1px #837f31;
+	border-top: solid 1px #837f31;
+}
+
+.smbtnsubmit {
+	float: left;
+	margin: 20px 0px 0px 0px;
+	height: 75px;
+	width: 100%;
+	border-left: solid 1px #837f31;
+	clear: both;
+	margin-bottom: 40px;
+}
+
+.submitsm{
+	float: left;
+	font-size: 1.6em;
+	width: 168px;
+	height: 40px;
+	margin-top: 18px;
+	margin-left: 19%;
+	padding: 10px;
+	/*text-transform: uppercase;*/
+	border: solid 1px #111111;
+	color: #111111;
+}
+
+.shopcover {
+	background: url(img/shopcover.png) no-repeat center;
+	height: 568px;
+}
+
+.sellprotein{
+	height: 1830px;
+}
+
+.sellshirts{
+	padding-top: 25px;
+	height: 2550px;
+}
+
+.proteincovertitle{
+	margin: 70% 0px 0px 9%;
+	width: 270px;
+}
+
+.lgprotein {
+	width: 230px;
+	height: 100px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+.smapparel {
+	width: 180px;
+	height: 100px;
+	margin: -44px 0px 0px 95px;
+}
+
+.shirtcontainer{
+	padding-top: 25px;
+	height: 650px;
+	width: 95%;
+}
+
+
+.shirtbox{
+	height: 900px;
+	width: 100%;
+	margin:0;
+	border-bottom: 1px solid hsla(0, 0%, 0%, 0.24);
+	margin-bottom: 30px;
+}
+
+.shirtinfo{
+	float: left;
+	height: 457px;
+	width: 100%;
+	margin:40px 0px 0px 0px;
+}
+
+.moreshirts {
+	width: 70%;
+	margin-top: 260px;
+	height: 990px;
+}
+
+
+.smshirtc{
+	height: 250px;
+	margin-top: 50px;
+}
+
+.shirtc{
+	height: 410px;
+}
+
+
+.shirtpage{
+	float: left;
+	margin: 0px 0px 0px 0%;
+	padding: 0px;
+	width: 100%;
+}
+
+.shirtsizebox{
+	float: left;
+	margin-left: 10px;
+	width: 50px;
+	height: 40px;
+	margin-top:10px;
+	border: 1px solid #837f31;
+}
+
+.sizecontainer{
+	float: left;
+	width: 190px;
+	height: 110px;
+	margin: 40px 0px 0px -10px;
+	clear: both;
+}
+
+
+.purchaserow{
+	height: 690px;
+	width: 100%;
+	margin:0;
+	border-bottom: 1px solid hsla(0, 0%, 0%, 0.24);
+	margin-bottom: 30px;
+}
+
+.proteinpic2{
+	float: left;
+	margin: 0px 0px 0px 0%;
+	width: 100%;
+}
+
+.purchaseinfo{
+	float: left;
+	height: 237px;
+	width: 100%;
+	margin:40px 0px 0px 0px;
+}
+
+.purchasecart{
+	padding-top: -225px;
+	height: 2171px;
+	border-top: 1px solid #837f31;
+	/*border-bottom: 1px solid #837f31;*/
+}
+
+.sizequantitycart{
+	float: left;
+	width: 190px;
+	height: 60px;
+	margin: 23% 0px 0px -10px;
+}
+
+.totaltitle {
+	margin:27px 0px 0px 0%;
+	width: 50%;
+}
+
+.totalnumber {
+	margin: 27px 0px 0px -20%;
+	width: 25%;
+}
+
+.purchaseprocesscontainer{
+	margin-top: 100px;
+	height: 600px;
+	padding: 0px;
+}
+
+.plantitlecart {
+	margin-left: 0%;
+	width: 80%;
+}
+
+.plantitlephone {
+	margin-left: 8%;
+	width: 80%;
+}
+
+.purchaseprocess{
+	margin: 0px;
+	margin-top: 60px;
+	padding: 0px;
+	width: 100%;
+	height: 110px;
+	border-top: solid 1px #837f31;
+	border-bottom: solid 1px #837f31;
+}
+
+.purchaseprocess2{
+	margin: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 110px;
+	border-bottom: solid 1px #837f31;
+}
+
+.buybox {
+	margin-top:100px;
+	height: 625px;
+}
+
+.planbox{
+	margin: 0% 0px 0px 8%;
+}
+
+.thankyoutext{
+	margin-top: -80px;
+	height: 500px;	
+}
+
+.purchasebox { 
+	width: 50%;
+    background-color: #ffffff;
+    /*border: solid 1px #ffffff;*/ 
+    outline: none !important;
+    border:none;
+    box-shadow: none;
+    color: #333333;
+}
+
 
 }
 
