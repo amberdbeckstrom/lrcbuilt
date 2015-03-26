@@ -1,134 +1,34 @@
 <!DOCTYPE html>
-	<html ng-app="website">
-		<head>
-		
-			<meta name="viewport" content="width=device-width">
-			<title>LRC Built</title>
-			<link rel="stylesheet" type="text/css" href="normalize.css">
-			<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css">
-			<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
-			<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-			<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-			<link rel="stylesheet" type="text/css" href="style.css">
+	<html ng-app="lrcApp">
+	<head>
+		<meta name="viewport" content="width=device-width">
+		<title>LRC Built</title>
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body ng-controller="CartController">
+		<div class="sidenav">
+			<a href="index.html"><img class="logo" src="img/lrclogo.png"/></a>
+			<ul class='nav'>
+				<a href="#/account"><li>ACCOUNT</li></a>
+				<a href="#/plans"><li>TRAINING PLANS</li></a>
+				<a href="#/contact"><li>CONTACT</li></a>
+				<a href="#/shop"><li>SHOP</li></a>
+			</ul>
 
+			<ul class='nav2'>
+				<a href="account.html"><li>CART {{ cart }}</li></a>
+			</ul>
+		</div>
 
-		</head>
-			<body>
+		<div ng-view></div>
 
-			<div class="sidenav">
-					<a href="index.html"><img class="logo" src="img/lrclogo.png"/></a>
-							<ul class='nav'>
-								<a href="account.html"><li>ACCOUNT</li></a>
-								<a href="storm.html"><li>TRAINING PLANS</li></a>
-								<a href="contact.html"><li>CONTACT</li></a>
-								<a href="shop.html"><li>SHOP</li></a>
-							</ul>
-
-							<ul class='nav2'>
-								<a href="account.html"><li>CART 0</li></a>
-							</ul>
-			</div>
-			
-			<div class="covertitle">
-				<h1 class="smtitle">CHAMPION</h1>
-				<h1 class="lgtitle">BUILDERS</h1>
-			</div>
-
-			<div class="learnmorebox">
-				<h6 class="learnmore">LEARN MORE</h6>
-				<img class="arrow" src="img/downarrow.png"/>
-			</div>
-						
-			<div class="homecover"></div>
-						
-
-
-			
-
-						<div class="container head room" >
-								<div class="headericonbox">
-								<img class="headericon" src="img/headericon.png"/>
-								</div>
-								<h2>LRC CHAMPIONS</h2>
-								<h3>Prepare to be lrc built</h3>
-							</div>
-
-						<div class="container starttext">
-							<h4 class="firstwords">LRC is proud to bring the world the largest and finest bodybuilding facility.</h4> 
-
-							<h4> What makes it the best is the understanding that access to world class trainers, specialized lifiting equipment and a cafeteria with the meals that provide fuel to build muscle.</h4>  
-					
-							<h4>With numerous champions competiting in national competitions LRC knows exactly how to get results.</h4> 
-
-						</div>
-
-						<!-- <div class="blacktriangles">
-						</div> -->
-
-						<div class="kylecover">
-
-							<div class="covertitle championtext">
-								<h4 class="goldfour">Derek Morgan won master champion bodybuilder for 2014.</h4> 
-							</div>
-							
-							<div class="covertitle championtitle">
-								<h1 class="smchamp">MASTER</h1>
-								<h1 class="lgchamp">CHAMPION</h1>
-							</div>
-
-						</div>
-
-						<div class="container head room" >
-								<img class="headericon" src="img/headericon.png"/>
-								<h2>LRC TRAINING PLANS</h2>
-								<h3 class="intense">These three intense training plans to prepare you to compete.</h3>
-						</div>
-
-						<div class="container plans">
-							<div class="col-lg-3">
-								<a href="storm.html"><img class="planicon" src="img/cloud.png"/></a>
-								<h3 class="plantitle">STORM &#36;49</h3>
-								<h5 class="plantext">Includes specialized trainers that will guide you everystep of the way.</h5>
-								<a href="storm.html"><h3 class="viewplan">VIEW PLAN</h3></a>
-							</div>
-
-							<div class="col-lg-3">
-								<img class="planicon" src="img/rain.png"/>
-								<h3 class="plantitle">FRENZY &#36;99</h3>
-								<h5 class="plantext">A plan that will fuel your workouts with intense trainers and meal plans</h5>
-								<a href="frenzy.html"><h3 class="viewplan">VIEW PLAN</h3></a>
-							</div>
-							
-							<div class="col-lg-3">
-								<img class="planicon" src="img/bolt.png"/>
-								<h3 class="plantitle">RAMPAGE &#36;149</h3>
-								<h5 class="plantext">Building serious muscle with a personal trainer and custom meal plans. </h5>
-								<a href="rampage.html"><h3 class="viewplan">VIEW PLAN</h3></a>
-							</div>
-						</div>
-						
-						<div class="blacktrianglesfooter">
-
-								<h1 class="lgbuilt">PREPARE TO BE </br>LRC BUILT</h1>
-
-						</div>
-
-							
-
-			
-					
-	
-				
-			<!-- <footer></footer>	 -->
-
-		<body>
-
+		<script src="js/angular.min.js"></script>
+		<script src="js/angular-route.min.js"></script>
+		<script src="js/lrcapp.js"></script>
+	<body>
 </html>
-
-
-
-<!-- 
-<form>
-	<textarea name="message"></textarea>
-								
-</form> -->
