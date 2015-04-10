@@ -92,16 +92,16 @@ section.toggle {
 }
 
 .nav-toggler{
-    margin: 25px 0 0 -10px;
-    width: 65px;
+    margin: 8px 0 0 -18px;
+    width: 45px;
 }
 
 .close-menu{
     display: inline-block;
     top: 0;
     left: 0;
-    margin: 20px 0 0 -210px;
-    width: 65px;
+    margin: 8px 0 0 -227px;
+    width: 45px;
 }
 
 /* ------------------------------------------------------------ *\
