@@ -107,21 +107,14 @@ a img {
 }
 body {
     background-color: #ffffff;
-    /*color: #505050;*/
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.8;
 }
 /* Headings */
 
-a {
+/*a {
     text-decoration: none;
     color: #67b5d1;
-}
-a:hover {
-    color: #3184a1
-}
+}*/
 /* clear floated divs */
 .clearfix:after {
     content: "";
@@ -152,7 +145,7 @@ a:hover {
 |* Info Bar
 |* ------------------------------------------------------------ *|
 \* ------------------------------------------------------------ */
-#info-bar {
+/*#info-bar {
     background-color: #40a2c5
 }
 #info-bar a {
@@ -178,13 +171,13 @@ span.all-tutorials {
 span.back-to-tutorial {
     float: right;
     text-align: right;
-}
+}*/
 /* ------------------------------------------------------------ *\
 |* ------------------------------------------------------------ *|
 |* Header
 |* ------------------------------------------------------------ *|
 \* ------------------------------------------------------------ */
-header {
+/*header {
     padding: 30px 0
 }
 #title {
@@ -198,13 +191,13 @@ header {
 #title h2 {
     color: #b5dbe9;
     font-size: 20px;
-}
+}*/
 /* ------------------------------------------------------------ *\
 |* ------------------------------------------------------------ *|
 |* Footer
 |* ------------------------------------------------------------ *|
 \* ------------------------------------------------------------ */
-footer {
+/*footer {
     padding: 30px 0;
     text-align: center;
 }
@@ -213,7 +206,7 @@ footer span {
 }
 footer span a {
     color: #b5dbe9
-}
+}*/
 /* ------------------------------------------------------------ *\
 |* ------------------------------------------------------------ *|
 |* Media Queries
@@ -233,7 +226,7 @@ footer span a {
       text-align: center;
   }
   span.all-tutorials {
-      border-bottom: solid 1px #3184a1
+      /*border-bottom: solid 1px #3184a1*/
   }
 
 }

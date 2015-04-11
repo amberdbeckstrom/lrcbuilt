@@ -16,6 +16,15 @@ lrcapp.config([
         .when('/plans', {
             templateUrl: 'templates/storm.html'
         })
+        .when('/plans/rampage', {
+            templateUrl: 'templates/rampage.html'
+        })
+         .when('/plans/frenzy', {
+            templateUrl: 'templates/frenzy.html'
+        })
+        .when('/plans/storm', {
+            templateUrl: 'templates/storm.html'
+        })
         .when('/contact', {
             templateUrl: 'templates/contact.html'
         })
@@ -28,6 +37,22 @@ lrcapp.config([
         .when('/shirt', {
             templateUrl: 'templates/shirt.html'
         })
+        .when('/hat', {
+            templateUrl: 'templates/hat.html'
+        })
+        .when('/pockettank', {
+            templateUrl: 'templates/pockettank.html'
+        })
+        .when('/sweats', {
+            templateUrl: 'templates/sweats.html'
+        })
+        .when('/hoodie', {
+            templateUrl: 'templates/hoodie.html'
+        })
+        .when('/greytank', {
+            templateUrl: 'templates/greytank.html'
+        })
+
         .when('/thankyou', {
             templateUrl: 'templates/thankyou.html'
         })
@@ -35,6 +60,8 @@ lrcapp.config([
             redirectTo: '/'
         });
     }
+
+
 ]);
 
 lrcapp.controller('CartController', ['$scope', function($scope) {
@@ -76,6 +103,11 @@ lrcapp.controller('CartController', ['$scope', function($scope) {
                 return cart_item.name != item.name
             });
         }
+
+
+
+
+
     }
 
     console.log($scope.cart);

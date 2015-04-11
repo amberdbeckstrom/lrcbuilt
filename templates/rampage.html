@@ -1,36 +1,3 @@
-<!DOCTYPE html>
-	<html ng-app="website">
-		<head>
-		
-			<meta name="viewport" content="width=device-width">
-			<title>LRC Built</title>
-			<link rel="stylesheet" type="text/css" href="normalize.css">
-			<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css">
-			<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
-			<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-			<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-			<link rel="stylesheet" type="text/css" href="style.css">
-
-
-		</head>
-			<body>
-			
-			<div class="sidenav" >
-			<a href="/#/index.html"><img class="logo" src="img/lrclogo.png"/></a>
-			<ul class="nav">
-				<a href="/#/account"><li>ACCOUNT</li></a>
-				<a href="/#/plans"><li>TRAINING PLANS</li></a>
-				<a href="/#/contact"><li>CONTACT</li></a>
-				<a href="/#/shop"><li>SHOP</li></a>
-			</ul>
-
-			<ul class='nav2'>
-				<a href="/#/account"><li>CART {{ cart_total }}</li></a>
-			</ul>
-		</div>
-
-		<div ng-view></div>
-
 			
 			<div class="trainingtitle">
 				<h1 class="lgtitle lgtraining">TRAINING</h1>
@@ -40,18 +7,18 @@
 			<div class="planlinks">
 
 			<div class="planbox">
-				<a href="storm.html"><img class="plantitleicon" src="img/cloud.png"/></a>
-				<a href="storm.html"><h6 class="learnmore">STORM</h6></a>
+    		<a href="/#/plans/storm"><img class="plantitleicon" src="img/cloud.png"/></a>
+   			<a href="/#/plans/storm"><h6 class="learnmore">STORM</h6></a>
 			</div>
 
 			<div class="planbox">
-				<a href="frenzy.html"><img class="plantitleicon" src="img/rain.png"/></a>
-				<h6 class="learnmore">FRENZY</h6>
+   			 <a href="/#/plans/frenzy"><img class="plantitleicon" src="img/rain.png"/></a>
+    		 <a href="/#/plans/frenzy"><h6 class="learnmore">FRENZY</h6></a>
 			</div>
 
 			<div class="planbox">
-				<a href="/#/rampage"><img class="plantitleicon" src="img/bolt.png"/></a>
-				<h6 class="learnmore">RAMPAGE</h6>
+   			 <a href="/#/plans/rampage"><img class="plantitleicon" src="img/bolt.png"/></a>
+    		<a href="/#/plans/rampage"><h6 class="learnmore">RAMPAGE</h6></a>
 			</div>
 
 			</div>
@@ -105,7 +72,7 @@
 								<h3>&#36;149.99 monthly membership</h3>
 								<h4 class="purchasetext">As LRCS most intense plan it will give you results like you have never seen. Are you ready to be LRC built? </h4> 
 
-								<a><h4 class="addcart">Add to cart</h4></a>
+								<a><h4 class="addcart" ng-click="add_to_cart('rampage')">Add to cart</h4></a>
 						</div>
 
 						
@@ -116,21 +83,3 @@
 						</div>
 
 							
-
-			
-					
-	
-				
-			<!-- <footer></footer>	 -->
-
-		<body>
-
-</html>
-
-
-
-<!-- 
-<form>
-	<textarea name="message"></textarea>
-								
-</form> -->

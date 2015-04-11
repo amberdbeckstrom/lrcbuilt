@@ -4,13 +4,14 @@
         <img class="headericon" src="img/headericon.png"/>
     </div>
     <h2>CART</h2>
-    <h3 class="phonedisplay">were ready to make you a champion</h3>
+    <h3 class="phonedisplay">we are ready to make you a champion</h3>
 </div>
 
 <div class="container purchasecart">
     <div class="col-lg-3 purchaserow" ng-repeat="item in cart">
-        <div ng-if="item.name == 'protein'">
-            <img class="proteinpic2" src="img/protein.png"/>
+        
+        <div ng-if="item.name == 'chocolate'">
+            <img class="proteinpic2" src="img/chocolateprotein.png"/>
             <div class="purchaseinfo">
                 <h3 class="plantitlecart">CHOCOLATE PROTEIN</h3>
                 <div class="priceinfo">
@@ -26,8 +27,45 @@
                 </div>
             </div>
         </div>
+
+        <div ng-if="item.name == 'vanilla'">
+            <img class="proteinpic2" src="img/vanillaprotein.png"/>
+            <div class="purchaseinfo">
+                <h3 class="plantitlecart">VANILLA PROTEIN</h3>
+                <div class="priceinfo">
+                    <h3 class="plantitlecart">&#36;65</h3>
+                </div>
+                <h5 class="plantextcart">Includes specialized trainers that will guide you everystep of the way. Building serious muscle with a personal trainer and custom meal plans.</h5>
+                <div class="sizequantitycart">
+                    <input class="cart-input"
+                        type="text"
+                        ng-model="item.amount"
+                        ng-blur="update_item(item)">
+                    <h5 class="quantitytitle">QUANTITY</h5>
+                </div>
+            </div>
+        </div>
+
+        <div ng-if="item.name == 'cherry'">
+            <img class="proteinpic2" src="img/cherryprotein.png"/>
+            <div class="purchaseinfo">
+                <h3 class="plantitlecart">CHERRY PROTEIN</h3>
+                <div class="priceinfo">
+                    <h3 class="plantitlecart">&#36;65</h3>
+                </div>
+                <h5 class="plantextcart">Includes specialized trainers that will guide you everystep of the way. Building serious muscle with a personal trainer and custom meal plans.</h5>
+                <div class="sizequantitycart">
+                    <input class="cart-input"
+                        type="text"
+                        ng-model="item.amount"
+                        ng-blur="update_item(item)">
+                    <h5 class="quantitytitle">QUANTITY</h5>
+                </div>
+            </div>
+        </div>
+
         <div ng-if="item.name == 'storm'">
-            <img class="proteinpic2" src="img/shirt.png"/>
+            <img class="proteinpic2" src="img/cloud.png"/>
             <div class="purchaseinfo">
                 <h3 class="plantitlecart">STORM PLAN</h3>
                 <div class="priceinfo">
@@ -43,10 +81,47 @@
                 </div>
             </div>
         </div>
-        <div ng-if="item.name == 'shirt'">
-            <img class="proteinpic2" src="img/shirt.png"/>
+
+        <div ng-if="item.name == 'frenzy'">
+            <img class="proteinpic2" src="img/rain.png"/>
             <div class="purchaseinfo">
-                <h3 class="plantitlecart">GRAY SHIRT</h3>
+                <h3 class="plantitlecart">FRENZY PLAN</h3>
+                <div class="priceinfo">
+                    <h3 class="plantitlecart">&#36;49</h3>
+                </div>
+                <h5 class="plantextcart">A plan that will fuel your workouts with intense trainers and meal plans. Building serious muscle with a personal trainer and custom meal plans.</h5>
+                <div class="sizequantitycart">
+                    <input class="cart-input"
+                        type="text"
+                        ng-model="item.amount"
+                        ng-blur="update_item(item)">
+                    <h5 class="quantitytitle">QUANTITY</h5>
+                </div>
+            </div>
+        </div>
+
+        <div ng-if="item.name == 'rampage'">
+            <img class="proteinpic2" src="img/bolt.png"/>
+            <div class="purchaseinfo">
+                <h3 class="plantitlecart">RAMPAGE PLAN</h3>
+                <div class="priceinfo">
+                    <h3 class="plantitlecart">&#36;49</h3>
+                </div>
+                <h5 class="plantextcart">A plan that will fuel your workouts with intense trainers and meal plans. Building serious muscle with a personal trainer and custom meal plans.</h5>
+                <div class="sizequantitycart">
+                    <input class="cart-input"
+                        type="text"
+                        ng-model="item.amount"
+                        ng-blur="update_item(item)">
+                    <h5 class="quantitytitle">QUANTITY</h5>
+                </div>
+            </div>
+        </div>
+
+        <div ng-if="item.name == 'vneck'">
+            <img class="proteinpic2" src="img/vneck.png"/>
+            <div class="purchaseinfo">
+                <h3 class="plantitlecart">V NECK</h3>
                 <div class="priceinfo">
                     <h3 class="plantitlecart">&#36;25</h3>
                 </div>
@@ -60,6 +135,97 @@
                 </div>
             </div>
         </div>
+
+        <div ng-if="item.name == 'hat'">
+            <img class="proteinpic2" src="img/hat.png"/>
+            <div class="purchaseinfo">
+                <h3 class="plantitlecart">LRC HAT</h3>
+                <div class="priceinfo">
+                    <h3 class="plantitlecart">&#36;25</h3>
+                </div>
+                <h5 class="plantextcart">A plan that will fuel your workouts with intense trainers and meal plans. Building serious muscle with a personal trainer and custom meal plans.</h5>
+                <div class="sizequantitycart">
+                    <input class="cart-input"
+                        type="text"
+                        ng-model="item.amount"
+                        ng-blur="update_item(item)">
+                    <h5 class="quantitytitle">QUANTITY</h5>
+                </div>
+            </div>
+        </div>
+
+        <div ng-if="item.name == 'greytank'">
+            <img class="proteinpic2" src="img/greytank.png"/>
+            <div class="purchaseinfo">
+                <h3 class="plantitlecart">GREY TANK</h3>
+                <div class="priceinfo">
+                    <h3 class="plantitlecart">&#36;25</h3>
+                </div>
+                <h5 class="plantextcart">A plan that will fuel your workouts with intense trainers and meal plans. Building serious muscle with a personal trainer and custom meal plans.</h5>
+                <div class="sizequantitycart">
+                    <input class="cart-input"
+                        type="text"
+                        ng-model="item.amount"
+                        ng-blur="update_item(item)">
+                    <h5 class="quantitytitle">QUANTITY</h5>
+                </div>
+            </div>
+        </div>
+
+        <div ng-if="item.name == 'hoodie'">
+            <img class="proteinpic2" src="img/hoodie.png"/>
+            <div class="purchaseinfo">
+                <h3 class="plantitlecart">Hoodie</h3>
+                <div class="priceinfo">
+                    <h3 class="plantitlecart">&#36;25</h3>
+                </div>
+                <h5 class="plantextcart">A plan that will fuel your workouts with intense trainers and meal plans. Building serious muscle with a personal trainer and custom meal plans.</h5>
+                <div class="sizequantitycart">
+                    <input class="cart-input"
+                        type="text"
+                        ng-model="item.amount"
+                        ng-blur="update_item(item)">
+                    <h5 class="quantitytitle">QUANTITY</h5>
+                </div>
+            </div>
+        </div>
+
+        <div ng-if="item.name == 'pockettank'">
+            <img class="proteinpic2" src="img/pockettank.png"/>
+            <div class="purchaseinfo">
+                <h3 class="plantitlecart">POCKET TANK</h3>
+                <div class="priceinfo">
+                    <h3 class="plantitlecart">&#36;25</h3>
+                </div>
+                <h5 class="plantextcart">A plan that will fuel your workouts with intense trainers and meal plans. Building serious muscle with a personal trainer and custom meal plans.</h5>
+                <div class="sizequantitycart">
+                    <input class="cart-input"
+                        type="text"
+                        ng-model="item.amount"
+                        ng-blur="update_item(item)">
+                    <h5 class="quantitytitle">QUANTITY</h5>
+                </div>
+            </div>
+        </div>
+
+        <div ng-if="item.name == 'sweats'">
+            <img class="proteinpic2" src="img/sweats.png"/>
+            <div class="purchaseinfo">
+                <h3 class="plantitlecart">SWEATS</h3>
+                <div class="priceinfo">
+                    <h3 class="plantitlecart">&#36;25</h3>
+                </div>
+                <h5 class="plantextcart">A plan that will fuel your workouts with intense trainers and meal plans. Building serious muscle with a personal trainer and custom meal plans.</h5>
+                <div class="sizequantitycart">
+                    <input class="cart-input"
+                        type="text"
+                        ng-model="item.amount"
+                        ng-blur="update_item(item)">
+                    <h5 class="quantitytitle">QUANTITY</h5>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 
