@@ -56,6 +56,9 @@ lrcapp.config([
         .when('/thankyou', {
             templateUrl: 'templates/thankyou.html'
         })
+        .when('/submit', {
+            templateUrl: 'templates/submit.html'
+        })
         .otherwise({
             redirectTo: '/'
         });
@@ -103,10 +106,6 @@ lrcapp.controller('CartController', ['$scope', function($scope) {
                 return cart_item.name != item.name
             });
         }
-
-
-
-
 
     }
 

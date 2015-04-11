@@ -1,7 +1,7 @@
 /**{
 		outline:1px solid red;
-	}*/
-
+	}
+*/
 html body{
 	width: 100%;
 	margin:0;
@@ -116,19 +116,19 @@ body {
 
 .logo{
 	position: fixed;
-	top: 50px;
+	top: 80px;
 	left: 9.1%;
 	width: 80px;
 }
 
 .nav{
 	position: fixed;
-	top: 140px;
+	top: 190px;
 }
 
 .nav2{
 	position: fixed;
-	top: 260px;
+	top: 320px;
 }
 
 
@@ -246,7 +246,7 @@ h1 {
 }
 
 .smlogin {
-	margin: 5px 0px 0px 23%;
+	margin: 5px 0px 0px 41.5%;
 	padding: 0px;
 }
 
@@ -474,8 +474,14 @@ h5 {
 }
 
 .buybox {
-	margin-top:100px;
-	height: 570px;
+	position: relative;
+	margin-top:200px;
+	height: 590px;
+}
+
+.purchasetitle{
+	position: relative;
+	margin-top:90px;
 }
 
 .smbtn {
@@ -486,7 +492,7 @@ h5 {
 
 .smbtnsubmit {
 	float: right;
-	margin: -78px 0px 0px 0px;
+	margin: 16px 0px 0px 0px;
 	height: 75px;
 	width: 270px;
 	border-left: solid 1px #837f31;
@@ -571,6 +577,7 @@ textarea{
 
 
 .plantitle {
+	margin: 0;
 	height: 30px;
 	font-size: 2.4em;
 	font-weight: 400;
@@ -589,7 +596,7 @@ textarea{
 
 .totaltitle {
 	float: right;
-	margin: -3px 0px 0px 0px;
+	margin: 27px 0px 0px 0px;
 	height: 30px;
 	width: 10%;
 	font-size: 2.4em;
@@ -600,7 +607,7 @@ textarea{
 
 .totalnumber {
 	float: right;
-	margin: -3px 0px 0px 0px;
+	margin: 27px 0px 0px 0px;
 	height: 30px;
 	width: 7%;
 	font-size: 2.4em;
@@ -636,7 +643,7 @@ margin: 44px 0px 0px 3%;
 	font-size: 1.6em;
 	margin: 20px 0px 0px 0px;
 	height: 100px;
-	width: 100%;
+	width: 90%;
 	text-align: left;
 }
 
@@ -703,7 +710,9 @@ margin: 44px 0px 0px 3%;
 }
 
 .sellplan{
-	padding-top: 140px;
+	/*position: relative;
+	margin: 10% 0 0 0;*/
+	/*padding-top: 140px;*/
 	height: 600px;
 }
 
@@ -775,7 +784,16 @@ margin: 44px 0px 0px 3%;
 	margin:0px 0px 0px 2px;
 }
 
+
+.planmain{
+	position: relative;
+	margin: -8% 0 0 6%;
+	height: 180px;
+}
+
 .planc{
+	position: relative;
+	margin: 13% 0 0 6%;
 	height: 180px;
 
 }
@@ -790,7 +808,7 @@ margin: 44px 0px 0px 3%;
 }
 
 .purchasetext{
-	height: 260px;
+	height: 220px;
 }
 
 .contactcontainer{
@@ -852,8 +870,19 @@ margin: 44px 0px 0px 3%;
 	height: 65px;
 	padding: 15px;
 	/*text-transform: uppercase;*/
-	border: solid 1px #111111;
-	color: #111111;
+	border: solid 1px #837f31;
+	color: #837f31;
+}
+
+a:hover, {
+	text-decoration: none;
+	border: solid 1px #ffffff;
+	color: #ffffff;
+}
+
+a:active .addcart, {
+	text-decoration: none;
+	border: solid 1px green;
 }
 
 .addcartsm{
@@ -862,9 +891,11 @@ margin: 44px 0px 0px 3%;
 	height: 40px;
 	padding: 10px;
 	/*text-transform: uppercase;*/
-	border: solid 1px #111111;
-	color: #111111;
+	border: solid 1px #837f31;
+	color: #837f31;
 }
+
+
 
 .addcartprotein{
 	position: relative;
@@ -874,8 +905,8 @@ margin: 44px 0px 0px 3%;
 	padding: 10px;
 	margin: 0% 0% 0% 0%;
 	/*text-transform: uppercase;*/
-	border: solid 1px #111111;
-	color: #111111;
+	border: solid 1px #837f31;
+	color: #837f31;
 }
 
 .smbtnprotein {
@@ -952,7 +983,7 @@ margin: 44px 0px 0px 3%;
 	border: solid 1px #837f31;
 	color: #837f31;
 	z-index: 99;
-	margin: 45% 0px 0px 46.2%;
+	margin: 45% 0px 0px 45.5%;
 }
 
 /*form{
@@ -1047,6 +1078,8 @@ textarea:focus{
 
 .purchasebox2 { 
     background-color: #ffffff;
+    float: right;
+    width:50%;
     border-left: solid 1px #837f31;
     border-top: solid 1px white;
     border-bottom: solid 1px white;
@@ -1054,6 +1087,7 @@ textarea:focus{
     outline: none !important;
     box-shadow: none;
     color: #333333;
+    z-index: 99;
   
 }
 
@@ -1076,12 +1110,12 @@ input:focus.purchasebox3 {
     color: #333333;
 }
 
-a:hover {
+/*a:hover {
 	text-decoration: none;
-	/*font-size: 1.2em;*/
+	font-size: 1.2em;
 	font-weight: 400;
 	color: #ffffff;
-}
+}*/
 
 /*a:hover .purchasehover{
 	color: #ffffff;
@@ -1236,6 +1270,7 @@ h4 {
 
 .textmessage{
 	width: 900px;
+
 }
 
 textarea{
@@ -1704,8 +1739,8 @@ h3 {
 	height: 65px;
 	padding: 15px;
 	margin: 8% 0% 0% 20%;
-	border: solid 1px #111111;
-	color: #111111;
+	border: solid 1px #837f31;
+	color: #837f31;
 }
 
 .purchasetext{
