@@ -1,7 +1,7 @@
-/**{
+*{
 		outline:1px solid red;
 	}
-*/
+
 html body{
 	width: 100%;
 	margin:0;
@@ -1156,7 +1156,7 @@ footer {
 
 
 
-@media (max-width: 1200px){
+@media (max-width: 1441px){
 
 .sidenav {
 	margin: 0px 0px 0px 4%;
@@ -1254,8 +1254,6 @@ h4 {
 	/*color: hsla(56, 98%, 52%, 0.30);*/
 	/*color: hsla(360, 100%, 100%, .10);*/
 	color: #000000;
-
-
 }
 
 .headquartercontainer{
@@ -1413,8 +1411,308 @@ textarea{
 }
 
 
+/*********************************************************************************/
+/* Desktop 1280*/
+/*********************************************************************************/
+
+@media (max-width: 1281px){
+
+.sidenav {
+	margin: 0% 0px 0px 4%;
+} 
+
+.headericon {
+	margin: 0px 0px 0px 47%;
+	width: 7%;
+}
+
+.logo{
+	position: fixed;
+	left: 6.8%;
+	width: 80px;
+}
+
+.covertitle{
+	position: absolute;
+	margin: 13% 0px 0px 23%;
+	z-index: 99;
+	width: 700px;
+}
+
+.lgchamp {
+	font-family: breuer;
+	font-weight: 500;
+	font-size: 10em;
+	letter-spacing: -8px;
+	color: hsla(56, 98%, 52%, 0.65);
+	width: 700px;
+	height: 150px;
+	margin: -87px 0px 0px 0px;
+	padding: 0px;
+}
+
+.smchamp {
+	font-family: breuer;
+	font-weight: 500;
+	font-size: 5em;
+	letter-spacing: -3px;
+	color: hsla(56, 98%, 52%, 0.65);
+	width: 320px;
+	height: 100px;
+	margin: 0px 0px 0px 295px;
+	padding: 0px;
+}
+
+.goldfour {
+	margin: 0px 0px 0px 0%;
+	width: 550px;
+}
+
+.blacktrianglesfooter{
+	background-color: #151515;
+	padding: 0;
+}
+
+/*.lgbuilt{
+	margin: 0 -20px 0 0;
+
+
+}*/
+
+.proteincovertitle{
+	margin: 35% 0px 0px 22%;
+}
+
+.learnmorebox{
+	position: absolute;
+	margin: 61% 0px 0px 48%;
+	width: 75px;
+	height: 47px;
+	z-index: 101;
+}
+
+.homecover {
+	background: url(img/homecover.png) no-repeat center;
+	background-size: cover;
+	height: 850px;
+}
+
+.col-sm-3{
+	margin-top: -90px;
+}
+
+h4 {
+	font-family: breuer;
+	font-weight: 100;
+	font-size: 3.7em;
+	width: 75%;
+	height: 310px;
+	line-height: 1em;
+	margin-bottom: 40px;
+}
+
+.planinfotext {
+	margin-bottom: 50px;
+}
+
+.firstwords {
+	font-family: breuer;
+	font-weight: 100;
+	font-size: 3.7em;
+	width: 75%;
+	height: 150px;
+	line-height: 1em;
+	margin-bottom: 50px;
+}
+
+.starttext{
+	height: 820px;	
+}
+
+.championtitle{
+	margin: 17% 0px 0px 47%;
+}
+
+.championtext{
+	margin: 31% 0px 0px 47.8%;
+}
+
+.plans{
+	width: 70%;
+	height: 410px;
+}
+
+.plantext {
+	font-size: 1.6em;
+	margin: 20px 0px 0px 0px;
+	height: 100px;
+	margin-bottom: 25px;
+}
+
+.headquartercontainer{
+	margin-top: 30px;
+	height: 600px;
+	width: 900px;
+}
+
+.headquarters{
+	height: 600px;
+}
+
+.textmessage{
+	width: 900px;
 
 }
+
+textarea{
+	width: 900px;
+	height: 350px;
+}
+
+.contactcontainer{
+	width: 900px;
+}
+
+.phone3 {
+	width: 35%;
+	margin: 0px 0px 0px 0%;
+}
+
+.phone {
+	width:29%;
+	margin: 44px 0px 0px 4%;
+}
+
+.smlogin{
+		margin: -120px 0px 0px 230px;
+}
+
+.lgtitle {
+	margin: -87px 0px 0px -16px;
+	padding: 0px;
+	width: 390px;
+}
+
+.smtitle {
+	margin: 6px 0px 0px 130px;
+	padding: 0px;
+	width: 150px;
+}
+
+.logintitle{
+	margin: 13% 0px 0px 41.5%;
+	width: 400px;
+}
+
+.firstlogin{
+	margin: 27% 0px 0px 40%;
+	width: 400px;
+	height: 400px;
+}
+
+.createaccountbox{
+	margin: 44% 0px 0px 47.5%;
+}
+
+.loginbtn{
+	margin: 50% 0px 0px 44.5%;
+}
+
+.accountcover {
+	background: url(img/accountcover.png) no-repeat center;
+	height: 835px;
+}
+
+.purchasecart{
+	width: 900px;
+}
+
+.totalrow{
+	width: 900px;
+}
+
+.purchaseprocesscontainer{
+	width: 900px;
+}
+
+.purchaseprocesscontainer2{
+	width: 900px;
+}
+
+.purchasebox { 
+	width: 50%;
+}
+
+.purchasebox2 { 
+	width: 40%;
+}
+
+.trainingtitle{
+	margin: 30% 0px 0px 51%;
+}
+
+.trainingcover {
+	background: url(img/trainingcover.png) no-repeat center;
+	height: 835px;
+}
+
+.sellplan{
+	width: 70%;
+}
+
+.sellprotein{
+	width: 80%;
+}
+
+.sellshirts{
+	height: 2150px;
+	width: 70%;
+}
+
+.planlinks{
+	margin: 50% 0px 0px 37.7%;
+	width: 23%;
+}
+
+.shopcover {
+	background: url(img/shopcover.png) no-repeat center;
+	height: 835px;
+}
+
+.shirtc{
+	height: 660px;
+}
+
+.moreshirts {
+	width: 70%;
+}
+
+.shirtcontainer{
+	padding-top: 25px;
+	height: 650px;
+	width: 70%;
+}
+
+.shirtbox{
+	height: 600px;
+	width: 100%;
+	margin:0;
+	border-bottom: 1px solid hsla(0, 0%, 0%, 0.24);
+	margin-bottom: 30px;
+}
+
+.createtitle {
+	margin: -10% 0px 0px -11%;
+}
+
+.smaccount {
+	margin: -10px 0px 0px 6.2%;
+}
+
+.menuhamburger{
+	display: hidden;
+}
+
 
 
 
