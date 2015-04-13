@@ -1145,7 +1145,25 @@ footer {
 	display: none;
 }
 
+input.cart-input {
+  width: 45px;
+  height: 35px;
+  padding: 0;
+  margin: 5% 0 0 5%;
+  text-align: center;
+  background: white;
+  color: #837f31;
+}
 
+.quantitytitle {
+	float: left;
+	font-size: 1.6em;
+	margin: -30px 0px 0px 70px;
+	height: 21px;
+	width: 100px;
+	text-align: left;
+	color: #837f31;
+}
 
 
 
@@ -1408,6 +1426,26 @@ textarea{
 
 .menuhamburger{
 	display: hidden;
+}
+
+input.cart-input {
+  width: 45px;
+  height: 35px;
+  padding: 0;
+  margin: 5% 0 0 5%;
+  text-align: center;
+  background: white;
+  color: #837f31;
+}
+
+.quantitytitle {
+	float: left;
+	font-size: 1.6em;
+	margin: -30px 0px 0px 70px;
+	height: 21px;
+	width: 100px;
+	text-align: left;
+	color: #837f31;
 }
 
 
@@ -1765,8 +1803,730 @@ margin-bottom: 10%
 
 .purchaseinfo{
 	margin: 0 0 0 2%;
-	width: 450px;
+	width: 65%;
 }
+
+input.cart-input {
+  width: 45px;
+  height: 35px;
+  padding: 0;
+  margin: 5% 0 0 5%;
+  text-align: center;
+  background: white;
+  color: #837f31;
+}
+
+.quantitytitle {
+	float: left;
+	font-size: 1.6em;
+	margin: -30px 0px 0px 70px;
+	height: 21px;
+	width: 100px;
+	text-align: left;
+	color: #837f31;
+}
+
+
+
+/*********************************************************************************/
+/* IPAD 768*/
+/*********************************************************************************/
+
+
+
+@media (max-width: 769px) and (orientation: portrait) {
+
+
+#wrapper {
+	display: block;
+}
+
+header {
+	height: 58px;
+	width: 100%;
+	background-color: #111111;
+	margin-bottom: 0px;
+}
+
+
+li {
+	color: #272727;
+	margin-left: 0px;
+	text-align: center;
+	font-family: breuer;
+	font-weight: 500;
+	font-size: 1.1em;
+	letter-spacing: .5px;
+}
+
+.work{
+	display: none;
+}
+
+.sidenav {
+	display:none;
+}
+
+
+/*.logo{
+	position: fixed;
+	left: 6.8%;
+	width: 80px;
+}*/
+
+.covertitle{
+	position: absolute;
+	margin: 20% 0px 0px 5%;
+	z-index: 50;
+	width: 400px;
+}
+
+.lgtitle {
+	font-size: 8em;
+	letter-spacing: -4px;
+	margin: -78px 0px 0px 0px;
+	width: 320px;
+	z-index: 50;
+}
+
+.smtitle {
+	font-size: 4.5em;
+	letter-spacing: -2px;
+	width: 300px;
+	margin: 0px 0px 0px 95px;
+	z-index: 50;
+}
+
+.learnmorebox{
+	position: absolute;
+	margin: 80% 0px 0px 48%;
+	width: 75px;
+	height: 47px;
+	z-index: 20;
+}
+
+.homecover {
+	/*display: none;*/
+	background: url(img/homecover.png) no-repeat center;
+	background-size: cover;
+	height: 667px;
+
+}
+
+h4 {
+	font-family: breuer;
+	font-weight: 100;
+	font-size: 3em;
+	width: 90%;
+	height: 370px;
+	line-height: 1em;
+}
+
+.firstwords {
+	font-family: breuer;
+	font-weight: 100;
+	font-size: 3em;
+	width: 90%;
+	height: 200px;
+	line-height: 1em;
+}
+
+.starttext{
+	margin-top: 30px;
+	height: 900px;	
+}
+
+
+.championtitle{
+	margin: 15.5% 0px 0px 47%;
+	width: 200px;
+}
+
+.championtext{
+	margin: 31% 0px 0px 47.8%;
+
+}
+
+.plans{
+	width: 85%;
+	/*margin: 0px 0px 0px 20%;*/
+
+}
+
+.lgbuilt {
+	font-weight: 500;
+	font-size: 6em;
+	width: 100%;
+	height: 247px;
+	margin: 0px 0px 0px 0%;
+	padding: 11% 0px 0px 0px;
+}
+
+.blacktrianglesfooter{
+	background-color: #151515;
+	width: 100%;
+	height: 250px;
+}
+
+.container{
+	width: 85%
+}
+
+.headericon{
+	margin: 0px 0px 0px 41%;
+	width: 18%;
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 4em;
+	width: 100%;
+	height: 47px;
+}
+
+h3 {
+	font-size: 1.5em;
+	height: 20px;
+	margin-top: 0px;
+}
+
+.intense{
+	height: 50px;
+}
+
+.kylecover {
+	background: url(img/kylecover.png) no-repeat center;
+	background-size: cover;
+	border-top: 0px solid #ffe400;
+	width: 100%;
+	height: 600px;
+	z-index: 1;
+}
+
+
+.championtext{
+	margin: 40% 5% 0px 40.5%;
+	width: 53%;
+}
+
+.goldfour {
+	font-size: 2em;
+	height: 100px;
+	width: 100%;
+
+}
+
+.championtitle{
+	margin: 20% 0px 0px 37%;
+	width: 420px;
+}
+
+.smchamp {
+	font-family: breuer;
+	font-weight: 500;
+	font-size: 5.5em;
+	letter-spacing: -2px;
+	color: hsla(56, 98%, 52%, 0.65);
+	width: 205px;
+	height: 60px;
+	margin: 0px 0px 0px 32%;
+	padding: 0px;
+}
+
+
+.lgchamp {
+	font-family: breuer;
+	font-weight: 500;
+	font-size: 7em;
+	letter-spacing: -4px;
+	color: hsla(56, 98%, 52%, 0.65);
+	width: 300px;
+	height: 150px;
+	margin: -18px 0px 0px 5.3%;
+	padding: 0px;
+}
+
+.plans{
+	padding-top: 30px;
+	height: 1100px;
+}
+
+.col-lg-3{
+	width: 40%;
+	margin: 0px 0px 0px 30%;
+	margin-bottom: 17%;
+	height: 230px;
+}
+
+.accountcover {
+	background: url(img/accountcover.png) no-repeat center;
+	height: 667px;
+}
+
+.firstlogin{
+	margin: 40% 0px 0px 13%;
+	width: 400px;
+	height: 400px;
+}
+
+.loginbtn{
+	margin: 102% 0px 0px 24.5%;
+}
+
+.createaccountbox{
+	margin: 79% 0px 0px 34.5%;
+}
+
+.logintitle{
+	margin: 27% 0px 0px 32%;
+	width: 200px;
+}
+
+.lglogin {
+
+	font-size: 6em;
+	letter-spacing: -4px;
+	margin: -78px 0px 0px 0px;
+	width: 200px;
+	height: 100px;
+}
+
+.smlogin {
+	margin: -30px 0px 0px 35%;
+	width: 170px;
+	height: 50px;
+}
+
+.createtitle {
+	margin: -37% 0px 0px -11%;
+	width: 200px;
+}
+
+.smaccount {
+	margin: -80px 0px 0px 6.2%;
+	width: 200px;
+	height: 70px;
+}
+
+.trainingcover {
+	background: url(img/trainingcover.png) no-repeat center;
+	height: 667px;
+}
+
+.trainingtitle{
+	margin: 39% 0px 0px 40%;
+	width: 300px;
+}
+
+.lgtraining {
+	width: 290px;
+	height: 100px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+.smplans {
+	width: 150px;
+	height: 50px;
+	margin: -32px 0px 0px 95px;
+}
+
+.planlinks{
+	margin: 100% 0px 0px 14%;
+	width: 74%;
+}
+
+.starttext{
+	height: 980px;	
+}
+
+.blacktriangles{
+	background-color: #111111;
+	width: 100%;
+	height: 900px;
+}
+
+.sellplan{
+	padding-top: 90px;
+	height: 900px;
+}
+
+.addcart{
+	font-size: 3em;
+	width: 270px;
+	height: 65px;
+	padding: 15px;
+	margin: 8% 0% 0% 20%;
+	border: solid 1px #837f31;
+	color: #837f31;
+}
+
+.purchasetext{
+	margin-top: 30px;
+	height: 310px;
+}
+
+.headquarters{
+	height: 370px;
+}
+
+.headquartercontainer{
+	margin-top: 30px;
+	height: 370px;
+	width: 90%;
+}
+
+.textmessage{
+	width: 90%;
+}
+
+textarea{
+	width: 95%;
+	height: 430px;
+}
+
+.contactcontainer{
+	width: 90%;
+}
+
+.phone {
+	width:90%;
+	margin: 22px 0px 0px 4%;
+}
+
+.phone3 {
+	width: 55%;
+	margin: 22px 0px 0px 4%;
+}
+
+.purchaseprocess2{
+	margin: 0px;
+	margin-top: 100px;
+	padding: 0px;
+	width: 100%;
+	height: 202px;
+	border-bottom: solid 1px #837f31;
+	border-top: solid 1px #837f31;
+}
+
+.smbtnsubmit {
+	float: left;
+	margin: 20px 0px 0px 0px;
+	height: 75px;
+	width: 100%;
+	border-left: solid 1px #837f31;
+	clear: both;
+}
+
+.submitsm{
+	float: left;
+	font-size: 1.6em;
+	width: 168px;
+	height: 40px;
+	margin-top: 27px;
+	margin-left: 32%;
+	padding: 10px;
+	/*text-transform: uppercase;*/
+	border: solid 1px #111111;
+	color: #111111;
+}
+
+.shopcover {
+	background: url(img/shopcover.png) no-repeat center;
+	height: 667px;
+}
+
+.sellprotein{
+	height: 1830px;
+}
+
+.sellshirts{
+	padding-top: 25px;
+	height: 4050px;
+}
+
+.proteincovertitle{
+	margin: 50% 0px 0px 9%;
+	width: 300px;
+}
+
+.lgprotein {
+	width: 290px;
+	height: 100px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+.smapparel {
+	width: 225px;
+	height: 100px;
+	margin: -32px 0px 0px 95px;
+}
+
+.shirtcontainer{
+	padding-top: 25px;
+	height: 650px;
+	width: 90%;
+}
+
+
+.shirtbox{
+	height: 1080px;
+	width: 100%;
+	margin:0;
+	border-bottom: 1px solid hsla(0, 0%, 0%, 0.24);
+	margin-bottom: 30px;
+}
+
+.shirtinfo{
+	float: left;
+	height: 457px;
+	width: 100%;
+	margin:40px 0px 0px 0px;
+}
+
+.moreshirts {
+	width: 70%;
+	margin-top: 460px;
+	height: 990px;
+}
+
+
+.smshirtc{
+	height: 250px;
+	margin-top: 50px;
+}
+
+.shirtpage{
+	float: left;
+	margin: 0px 0px 0px 0%;
+	padding: 0px;
+	width: 100%;
+}
+
+.shirtsizebox{
+	float: left;
+	margin-left: 10px;
+	width: 50px;
+	height: 40px;
+	margin-top:10px;
+	border: 1px solid #837f31;
+}
+
+.purchaserow{
+	height: 600px;
+	width: 100%;
+	margin:0;
+	border-bottom: 1px solid hsla(0, 0%, 0%, 0.24);
+	margin-bottom: 30px;
+}
+
+.proteinpic2{
+	float: left;
+	margin: 0px 0px 0px 23%;
+	width: 55%;
+}
+
+.purchaseinfo{
+	float: left;
+	height: 237px;
+	width: 95%;
+	margin:40px 0px 0px 0px;
+}
+
+.purchasecart{
+	width: 85%;
+	padding-top: 25px;
+	height: 700px;
+	border-top: 1px solid #837f31;
+	/*border-bottom: 1px solid #837f31;*/
+}
+
+.totaltitle {
+	margin:27px 0px 0px 0px;
+	width: 20%;
+}
+
+.totalnumber {
+	margin: 27px 0px 0px 0px;
+	width: 15%;
+}
+
+.purchaseprocesscontainer{
+	margin-top: 100px;
+	height: 600px;
+	width: 85%;
+	padding: 0px;
+}
+
+.purchaseprocesscontainer2 {
+	width: 85%;
+}
+
+.totalrow {
+	width: 85%;
+}
+
+
+.plantitlecart {
+	margin-left: 0px;
+}
+
+.purchaseprocess{
+	margin: 0px;
+	margin-top: 60px;
+	padding: 0px;
+	width: 100%;
+	height: 110px;
+	border-top: solid 1px #837f31;
+	border-bottom: solid 1px #837f31;
+}
+
+.purchaseprocess2{
+	margin: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 110px;
+	border-bottom: solid 1px #837f31;
+}
+
+
+
+
+
+body {
+    overflow-x: hidden
+}
+#wrapper {
+    position: relative;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+section {
+    margin-bottom: 30px
+}
+section h1 {
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 10px;
+}
+section p {
+    margin-bottom: 30px
+}
+section p:last-child {
+    margin-bottom: 0
+}
+section:last-child {
+    margin-bottom: 0
+}
+section.toggle {
+    text-align: center
+}
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 118;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .9);
+}
+
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Menus
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+/* general style for all menus */
+nav.menu {
+    position: fixed;
+    z-index: 20;
+    background-color: #67b5d1;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+nav.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+nav.menu a {
+    font-weight: 300;
+    color: #fff;
+}
+button.close-menu {
+    background-color: #3184a1;
+    color: #fff;
+}
+button.close-menu:focus {
+    outline: none
+}
+
+
+
+
+
+
+nav.slide-menu-left {
+    top: 0;
+    width: 300px;
+    height: 100%;
+}
+nav.slide-menu-left li {
+    display: block;
+    text-align: center;
+/*    border-bottom: solid 1px #3184a1;
+    border-top: solid 1px #b5dbe9;*/
+}
+nav.slide-menu-left li:first-child {
+    border-top: none
+}
+nav.slide-menu-left li:last-child {
+    border-bottom: none
+}
+nav.slide-menu-left a {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+}
+nav.slide-menu-left button.close-menu {
+    margin: 10px 0;
+    padding: 10px 30px;
+    background-color: #3184a1;
+    color: #fff;
+}
+nav.slide-menu-left {
+    left: -300px
+}
+body.sml-open nav.slide-menu-left {
+    left: 0
+}
+/*
+
+.nav-toggler{
+    margin: 40px 0 0 -118px;
+    width: 45px;
+}
+
+.close-menu{
+    display: inline-block;
+    top: 0;
+    left: 0;
+    margin: 8px 0 0 -227px;
+    width: 45px;
+}*/
+
 
 
 

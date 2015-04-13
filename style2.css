@@ -70,12 +70,12 @@ section.toggle {
 |* Toggle Buttons
 |* ------------------------------------------------------------ *|
 \* ------------------------------------------------------------ */
-.buttons {
+/*.buttons {
     position: absolute;
     margin: 0 0 30px 0;
     text-align: left;
 
-}
+}*/
 /*.buttons button {
     display: inline-block;
     margin: 0 0 4px 0;
@@ -92,7 +92,10 @@ section.toggle {
 }*/
 
 .nav-toggler{
-    margin: 8px 0 0 -18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 8px 0 0 16px;
     width: 45px;
 }
 
