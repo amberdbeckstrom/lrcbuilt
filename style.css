@@ -1151,7 +1151,7 @@ footer {
 
 
 /*********************************************************************************/
-/* Desktop*/
+/* Desktop 1441*/
 /*********************************************************************************/
 
 
@@ -1479,10 +1479,6 @@ textarea{
 
 }*/
 
-.proteincovertitle{
-	margin: 35% 0px 0px 22%;
-}
-
 .learnmorebox{
 	position: absolute;
 	margin: 61% 0px 0px 48%;
@@ -1512,7 +1508,8 @@ h4 {
 }
 
 .planinfotext {
-	margin-bottom: 50px;
+	height: 460px;
+	margin-bottom: 0px;
 }
 
 .firstwords {
@@ -1526,7 +1523,7 @@ h4 {
 }
 
 .starttext{
-	height: 820px;	
+	height: 1020px;	
 }
 
 .championtitle{
@@ -1551,26 +1548,30 @@ h4 {
 
 .headquartercontainer{
 	margin-top: 30px;
-	height: 600px;
+	height: 500px;
 	width: 900px;
 }
 
 .headquarters{
-	height: 600px;
+	height: 500px;
+	width: 85%;
+	margin: 0 0 0 8%;
 }
 
 .textmessage{
-	width: 900px;
+	width: 63%;
+	margin: 0 0 0 19.5%;
 
 }
 
 textarea{
-	width: 900px;
+	width: 100%;
 	height: 350px;
 }
 
 .contactcontainer{
-	width: 900px;
+	width: 63%;
+	margin: 0 0 0 19.5%;
 }
 
 .phone3 {
@@ -1624,7 +1625,7 @@ textarea{
 }
 
 .purchasecart{
-	width: 900px;
+	width: 63%;
 }
 
 .totalrow{
@@ -1638,6 +1639,7 @@ textarea{
 .purchaseprocesscontainer2{
 	width: 900px;
 }
+
 
 .purchasebox { 
 	width: 50%;
@@ -1658,20 +1660,21 @@ textarea{
 
 .sellplan{
 	width: 70%;
+	height: 500px;
 }
 
 .sellprotein{
-	width: 80%;
+	width: 73%;
 }
 
 .sellshirts{
-	height: 2150px;
+	height: 1550px;
 	width: 70%;
 }
 
 .planlinks{
-	margin: 50% 0px 0px 37.7%;
-	width: 23%;
+	margin: 56% 0px 0px 36%;
+	width: 27%;
 }
 
 .shopcover {
@@ -1680,8 +1683,11 @@ textarea{
 }
 
 .shirtc{
-	height: 660px;
-}
+float: left;
+height: 370px;
+width: 40%;
+margin: 0 0 100px 7%;
+}	
 
 .moreshirts {
 	width: 70%;
@@ -1713,8 +1719,54 @@ textarea{
 	display: hidden;
 }
 
+.planc {
+	margin-top: 150px;
+}
 
+.buybox {
+margin-top: 0px;
+}
 
+.col-lg-3 {
+float: left;
+width: 33%;
+margin: 0px 0px 0px 0%;
+margin-bottom: 10%
+}
+
+.lgprotein {
+	width: 600px;
+	height: 200px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+.smapparel {
+	width: 385px;
+	height: 95px;
+	margin: -45px 0px 0px 114px;
+}
+
+.proteincovertitle{
+	margin: 23% 0px 0px 22%;
+}
+
+.purchaserow{
+	height: 270px;
+	width: 100%;
+	margin:0;
+	border-bottom: 1px solid hsla(0, 0%, 0%, 0.24);
+	margin-bottom: 30px;
+}
+
+.proteinpic2{
+	width: 27%;
+}
+
+.purchaseinfo{
+	margin: 0 0 0 2%;
+	width: 450px;
+}
 
 
 
