@@ -2290,10 +2290,14 @@ textarea{
 
 .shirtbox{
 	height: 1080px;
-	width: 100%;
-	margin:0;
+	width: 75%;
+	margin:0px 0px 0px 12%;
 	border-bottom: 1px solid hsla(0, 0%, 0%, 0.24);
 	margin-bottom: 30px;
+}
+
+.quantitytitle{
+	margin:-105% 0px 0px 257%;
 }
 
 .shirtinfo{
@@ -2304,15 +2308,16 @@ textarea{
 }
 
 .moreshirts {
-	width: 70%;
+	width: 80%;
 	margin-top: 460px;
-	height: 990px;
+	height: 1390px;
 }
 
 
 .smshirtc{
-	height: 250px;
-	margin-top: 50px;
+	width: 55%;
+	height: 400px;
+	margin:10% 0px 0px 23%;
 }
 
 .shirtpage{
@@ -2560,7 +2565,7 @@ body.sml-open nav.slide-menu-left {
 
 
 /*********************************************************************************/
-/* IPHONE6*/
+/* IPHONE6 540*/
 /*********************************************************************************/
 
 
@@ -2623,7 +2628,7 @@ li {
 
 .learnmorebox{
 	position: absolute;
-	margin: 112% 0px 0px 48%;
+	margin: 112% 0px 0px 44%;
 	width: 75px;
 	height: 47px;
 	z-index: 20;
@@ -2660,16 +2665,6 @@ h4 {
 }
 
 
-.championtitle{
-	margin: 15.5% 0px 0px 47%;
-	width: 200px;
-}
-
-.championtext{
-	margin: 31% 0px 0px 47.8%;
-
-}
-
 .plans{
 	width: 78%;
 	/*margin: 0px 0px 0px 20%;*/
@@ -2701,6 +2696,10 @@ h4 {
 	width: 18%;
 }
 
+/*.headericonbox{
+	height: 200px;
+}
+*/
 h2 {
 	font-weight: 500;
 	font-size: 4em;
@@ -2723,14 +2722,15 @@ h3 {
 	background-size: cover;
 	border-top: 0px solid #ffe400;
 	width: 100%;
-	height: 600px;
+	height: 541px;
 	z-index: 1;
 }
 
 
 .championtext{
-	margin: 60% 5% 0px 38%;
+	margin: 54% 5% 0px 35%;
 	width: 305px;
+	height: 170px;
 }
 
 .goldfour {
@@ -2739,8 +2739,9 @@ h3 {
 }
 
 .championtitle{
-	margin: 38% 0px 0px 32%;
+	margin: 29% 0px 0px 32%;
 	width: 320px;
+	height: 130px;
 }
 
 .smchamp {
@@ -2763,7 +2764,7 @@ h3 {
 	letter-spacing: -4px;
 	color: hsla(56, 98%, 52%, 0.65);
 	width: 300px;
-	height: 150px;
+	height: 120px;
 	margin: -35px 0px 0px 5.3%;
 	padding: 0px;
 }
@@ -2799,7 +2800,7 @@ h3 {
 }
 
 .logintitle{
-	margin: 27% 0px 0px 32%;
+	margin: 27% 0px 0px 34%;
 	width: 200px;
 }
 
@@ -2813,7 +2814,7 @@ h3 {
 }
 
 .smlogin {
-	margin: -30px 0px 0px 35%;
+	margin: -26px 0px 0px 35%;
 	width: 170px;
 	height: 50px;
 }
@@ -2849,7 +2850,7 @@ h3 {
 .smplans {
 	width: 150px;
 	height: 50px;
-	margin: -32px 0px 0px 95px;
+	margin: -27px 0px 0px 95px;
 }
 
 .planlinks{
@@ -2877,7 +2878,7 @@ h3 {
 	width: 270px;
 	height: 65px;
 	padding: 15px;
-	margin: 8% 0% 0% 20%;
+	margin: -7% 0% 0% 20%;
 	border: solid 1px #837f31;
 	color: #837f31;
 }
@@ -2899,20 +2900,23 @@ h3 {
 
 .textmessage{
 	width: 90%;
+	margin: 0% 0px 0px 5%;
 }
 
 textarea{
 	width: 95%;
 	height: 430px;
+	margin: 4% 0px 0px 3.5%;
 }
 
 .contactcontainer{
 	width: 90%;
+	margin: 0% 0px 0px 5%;
 }
 
 .phone {
 	width:90%;
-	margin: 22px 0px 0px 4%;
+	margin: 35px 0px 0px 4%;
 }
 
 .phone3 {
@@ -2958,12 +2962,12 @@ textarea{
 }
 
 .sellprotein{
-	height: 1830px;
+	height: 2030px;
 }
 
 .sellshirts{
 	padding-top: 25px;
-	height: 4050px;
+	height: 3450px;
 }
 
 .proteincovertitle{
@@ -2981,7 +2985,7 @@ textarea{
 .smapparel {
 	width: 225px;
 	height: 100px;
-	margin: -32px 0px 0px 95px;
+	margin: -26px 0px 0px 95px;
 }
 
 .shirtcontainer{
@@ -2999,6 +3003,11 @@ textarea{
 	margin-bottom: 30px;
 }
 
+.shirtc{
+	width: 80%;
+	height: 550px;
+}
+
 .shirtinfo{
 	float: left;
 	height: 457px;
@@ -3007,9 +3016,9 @@ textarea{
 }
 
 .moreshirts {
-	width: 70%;
+	width: 90%;
 	margin-top: 460px;
-	height: 990px;
+	height: 1200px;
 }
 
 
@@ -3030,8 +3039,14 @@ textarea{
 	margin-left: 10px;
 	width: 50px;
 	height: 40px;
-	margin-top:10px;
+	margin: 12% 0 0 5%;
 	border: 1px solid #837f31;
+}
+
+.quantitytitle{
+	float: left;
+	margin: -106% 0px 0px 270%;
+
 }
 
 .purchaserow{
@@ -3076,6 +3091,7 @@ textarea{
 	margin-top: 100px;
 	height: 600px;
 	padding: 0px;
+	border-top: none;
 }
 
 .plantitlecart {
@@ -3102,6 +3118,10 @@ textarea{
 }
 */
 
+/*.purchaseprocess3{
+	margin-top: 300px;
+}
+*/
 
 
 
@@ -3322,9 +3342,9 @@ h4 {
 }
 
 
-.championtitle{
+/*.championtitle{
 	margin: 15.5% 0px 0px 47%;
-}
+}*/
 
 .championtext{
 	margin: 31% 0px 0px 47.8%;
@@ -3418,11 +3438,11 @@ h3 {
 	height: 100px;
 }
 
-.championtitle{
+/*.championtitle{
 	margin: 38% 0px 0px 2%;
 	width: 320px;
 }
-
+*/
 .smchamp {
 	font-family: breuer;
 	font-weight: 500;
