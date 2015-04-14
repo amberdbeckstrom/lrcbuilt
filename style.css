@@ -650,7 +650,7 @@ margin: 44px 0px 0px 3%;
 .quantitytitle {
 	float: left;
 	font-size: 1.6em;
-	margin: -20px 0px 0px 50px;
+	margin: -19px 0px 0px 50px;
 	height: 21px;
 	width: 100px;
 	text-align: left;
@@ -1155,7 +1155,7 @@ input.cart-input {
   color: #837f31;
 }
 
-.quantitytitle {
+/*.quantitytitle {
 	float: left;
 	font-size: 1.6em;
 	margin: -30px 0px 0px 70px;
@@ -1163,7 +1163,7 @@ input.cart-input {
 	width: 100px;
 	text-align: left;
 	color: #837f31;
-}
+}*/
 
 
 
@@ -3034,6 +3034,12 @@ textarea{
 	width: 100%;
 }
 
+
+.sizecontainer{
+	margin: 0% 0 0 -2%;
+}
+
+
 .shirtsizebox{
 	float: left;
 	margin-left: 10px;
@@ -3743,14 +3749,14 @@ textarea{
 	border: 1px solid #837f31;
 }
 
-.sizecontainer{
+/*.sizecontainer{
 	float: left;
 	width: 190px;
 	height: 110px;
 	margin: 40px 0px 0px -10px;
 	clear: both;
 }
-
+*/
 
 .purchaserow{
 	height: 690px;
