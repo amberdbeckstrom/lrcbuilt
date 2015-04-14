@@ -2060,28 +2060,27 @@ h3 {
 
 .accountcover {
 	background: url(img/accountcover.png) no-repeat center;
-	height: 667px;
+	height: 769px;
+}
+
+.logintitle{
+	margin: 22% 0px 0px 42%;
+	width: 200px;
 }
 
 .firstlogin{
-	margin: 40% 0px 0px 13%;
+	margin: 35% 0px 0px 29%;
 	width: 400px;
 	height: 400px;
 }
 
-.loginbtn{
-	margin: 102% 0px 0px 24.5%;
-}
-
 .createaccountbox{
-	margin: 79% 0px 0px 34.5%;
+	margin: 65% 0px 0px 44%;
 }
 
-.logintitle{
-	margin: 27% 0px 0px 32%;
-	width: 200px;
+.loginbtn{
+	margin: 76% 0px 0px 37%;
 }
-
 .lglogin {
 
 	font-size: 6em;
@@ -2114,26 +2113,26 @@ h3 {
 }
 
 .trainingtitle{
-	margin: 39% 0px 0px 40%;
-	width: 300px;
+	margin: 19% 0px 0px 40%;
+	width: 55%;
 }
 
 .lgtraining {
-	width: 290px;
+	width: 100%;
 	height: 100px;
 	margin: 0px 0px 0px 0px;
 	padding: 0px;
 }
 
 .smplans {
-	width: 150px;
+	width: 60%;
 	height: 50px;
-	margin: -32px 0px 0px 95px;
+	margin: -1px 0px 0px 95px;
 }
 
 .planlinks{
-	margin: 100% 0px 0px 14%;
-	width: 74%;
+	margin: 72% 0px 0px 25%;
+	width: 54%;
 }
 
 .starttext{
@@ -2143,27 +2142,36 @@ h3 {
 .blacktriangles{
 	background-color: #111111;
 	width: 100%;
-	height: 900px;
+	height: 1090px;
 }
 
 .sellplan{
 	padding-top: 90px;
-	height: 900px;
+	height: 1070px;
 }
+
+.planinfotext{
+	height: 400px;
+}
+
+.starttext{
+	height: 880px;
+}
+
 
 .addcart{
 	font-size: 3em;
 	width: 270px;
 	height: 65px;
 	padding: 15px;
-	margin: 8% 0% 0% 20%;
+	margin: -6% 0% 0% 28%;
 	border: solid 1px #837f31;
 	color: #837f31;
 }
 
 .purchasetext{
 	margin-top: 30px;
-	height: 310px;
+	height: 270px;
 }
 
 .headquarters{
@@ -2177,7 +2185,9 @@ h3 {
 }
 
 .textmessage{
-	width: 90%;
+	width: 85%;
+	margin: 0% 0% 0% 10%;
+	border-top: none;
 }
 
 textarea{
@@ -2186,7 +2196,9 @@ textarea{
 }
 
 .contactcontainer{
-	width: 90%;
+	width: 80%;
+	margin: 0% 0% 0% 10%;
+}
 }
 
 .phone {
@@ -2199,32 +2211,22 @@ textarea{
 	margin: 22px 0px 0px 4%;
 }
 
-.purchaseprocess2{
-	margin: 0px;
-	margin-top: 100px;
-	padding: 0px;
-	width: 100%;
-	height: 202px;
-	border-bottom: solid 1px #837f31;
-	border-top: solid 1px #837f31;
-}
-
 .smbtnsubmit {
 	float: left;
-	margin: 20px 0px 0px 0px;
+	margin: -80px 0px 0px 60%;
 	height: 75px;
-	width: 100%;
+	width: 40%;
 	border-left: solid 1px #837f31;
+	/*border-bottom: none;*/
 	clear: both;
 }
 
 .submitsm{
 	float: left;
 	font-size: 1.6em;
-	width: 168px;
 	height: 40px;
-	margin-top: 27px;
-	margin-left: 32%;
+	margin-top: 18px;
+	margin-left: 10%;
 	padding: 10px;
 	/*text-transform: uppercase;*/
 	border: solid 1px #111111;
@@ -2237,17 +2239,17 @@ textarea{
 }
 
 .sellprotein{
-	height: 1830px;
+	height: 1270px;
 }
 
 .sellshirts{
 	padding-top: 25px;
-	height: 4050px;
+	height: 1250px;
 }
 
 .proteincovertitle{
-	margin: 50% 0px 0px 9%;
-	width: 300px;
+	margin: 30% 0px 0px 9%;
+	width: 50%;
 }
 
 .lgprotein {
@@ -2258,9 +2260,25 @@ textarea{
 }
 
 .smapparel {
-	width: 225px;
+	width: 325px;
 	height: 100px;
-	margin: -32px 0px 0px 95px;
+	margin: 0px 0px 0px 95px;
+}
+
+.shirtc{
+	width: 40%;
+	margin-bottom: 0px;
+}
+
+.proteinc{
+	float: left;
+	width: 45%;
+	height: 610px;
+	margin: 0px 0px 0px 3%;
+}
+
+.smbtnprotein{
+	margin: 0px 0px 0px 18%;
 }
 
 .shirtcontainer{
@@ -2387,9 +2405,20 @@ textarea{
 	margin-top: 0px;
 	padding: 0px;
 	width: 100%;
-	height: 110px;
-	border-bottom: solid 1px #837f31;
+	height: 100px;
+	/*border-bottom: solid 1px #837f31;*/
 }
+
+.purchaseprocess3{
+	margin: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 351px;
+	/*border-bottom: solid 1px #837f31;*/
+}
+
+
 
 
 
@@ -2832,11 +2861,11 @@ h3 {
 	height: 980px;	
 }
 
-.blacktriangles{
+/*.blacktriangles{
 	background-color: #111111;
 	width: 100%;
 	height: 900px;
-}
+}*/
 
 .sellplan{
 	padding-top: 90px;
@@ -2891,7 +2920,7 @@ textarea{
 	margin: 22px 0px 0px 4%;
 }
 
-.purchaseprocess2{
+/*.purchaseprocess2{
 	margin: 0px;
 	margin-top: 100px;
 	padding: 0px;
@@ -2899,7 +2928,7 @@ textarea{
 	height: 202px;
 	border-bottom: solid 1px #837f31;
 	border-top: solid 1px #837f31;
-}
+}*/
 
 .smbtnsubmit {
 	float: left;
@@ -3063,7 +3092,7 @@ textarea{
 	border-bottom: solid 1px #837f31;
 }
 
-.purchaseprocess2{
+/*.purchaseprocess2{
 	margin: 0px;
 	margin-top: 0px;
 	padding: 0px;
@@ -3071,7 +3100,7 @@ textarea{
 	height: 110px;
 	border-bottom: solid 1px #837f31;
 }
-
+*/
 
 
 
