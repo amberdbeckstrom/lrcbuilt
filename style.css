@@ -1,6 +1,6 @@
-*{
+/**{
 		outline:1px solid red;
-	}
+	}*/
 
 html body{
 	width: 100%;
@@ -52,6 +52,27 @@ body {
     font-family: breuer;
     font-weight: 600;
     src: url(fonts/BreuerText-BoldItalic.otf);
+}
+
+
+.addcartprotein a:hover, {
+	border: solid 1px #ffffff;
+	color: #ffffff;
+}
+
+a:active, {
+	border: solid 1px #ffffff;
+	color: #ffffff;
+}
+
+a:visited, {
+	border: solid 1px #ffffff;
+	color: #ffffff;
+}
+
+li:hover{
+	color: #555555;
+	text-decoration: none;
 }
 
 .homecover {
@@ -111,8 +132,7 @@ body {
 	width: 160px;
 	height: 100%;
 	z-index: 99;
-
-} 
+}
 
 .logo{
 	position: fixed;
@@ -872,17 +892,15 @@ margin: 44px 0px 0px 3%;
 	/*text-transform: uppercase;*/
 	border: solid 1px #837f31;
 	color: #837f31;
+	/*text-decoration: none;*/
 }
 
-a:hover, {
-	text-decoration: none;
-	border: solid 1px #ffffff;
-	color: #ffffff;
-}
 
-a:active .addcart, {
+.smbtnprotein a {
+	float: left;
+	margin:0px 0px 0px 15%;
+	height: 55px;
 	text-decoration: none;
-	border: solid 1px green;
 }
 
 .addcartsm{
@@ -897,7 +915,7 @@ a:active .addcart, {
 
 
 
-.addcartprotein{
+.addcartprotein {
 	position: relative;
 	font-size: 1.6em;
 	width: 168px;
@@ -907,13 +925,9 @@ a:active .addcart, {
 	/*text-transform: uppercase;*/
 	border: solid 1px #837f31;
 	color: #837f31;
+	text-indent: none;
 }
 
-.smbtnprotein {
-	float: left;
-	margin:0px 0px 0px 15%;
-	height: 55px;
-}
 
 
 .submitsm{
@@ -1110,24 +1124,6 @@ input:focus.purchasebox3 {
     color: #333333;
 }
 
-/*a:hover {
-	text-decoration: none;
-	font-size: 1.2em;
-	font-weight: 400;
-	color: #ffffff;
-}*/
-
-/*a:hover .purchasehover{
-	color: #ffffff;
-	border: solid 1px #ffffff;
-	
-}*/
-
-/*a:hover {
-	color: #ffffff;
-	border: solid 1px #ffffff;
-}
-*/
 header {
 	height: 45px;
 	width: 100%;
