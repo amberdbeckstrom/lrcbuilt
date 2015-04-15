@@ -3129,6 +3129,11 @@ textarea{
 }
 */
 
+.thankyoutext{
+	margin-top: 20px;
+	height: 400px;	
+}
+
 
 
 body {
@@ -3256,7 +3261,7 @@ body.sml-open nav.slide-menu-left {
 }
 
 /*********************************************************************************/
-/* IPHONE5*/
+/* IPHONE5 320*/
 /*********************************************************************************/
 
 
@@ -3288,7 +3293,7 @@ body{
 
 .covertitle{
 	position: absolute;
-	margin: 50% 0px 0px 7%;
+	margin: 45% 0px 0px 7%;
 	z-index: 99;
 	width: 250px;
 	height: 110px;
@@ -3311,7 +3316,7 @@ body{
 
 .learnmorebox{
 	position: absolute;
-	margin: 152% 0px 0px 41%;
+	margin: 156% 0px 0px 41%;
 	width: 75px;
 	height: 47px;
 	z-index: 101;
@@ -3356,8 +3361,15 @@ h4 {
 	margin: 31% 0px 0px 47.8%;
 }
 
+.championtitle{
+	margin: 47% 0px 0px 2%;
+}
+
+
+
 .plans{
 	width: 78%;
+	/*height: 700px;*/
 	/*margin: 0px 0px 0px 20%;*/
 
 }
@@ -3420,7 +3432,8 @@ h3 {
 }
 
 .intense{
-	height: 50px;
+	height: 100px;
+	margin-top: 50px;
 }
 
 .kylecover {
@@ -3476,13 +3489,26 @@ h3 {
 
 .plans{
 	padding-top: 30px;
-	height: 1000px;
+	height: 1100px;
 }
+
+
+.plantitle{
+	width: 250px;
+	margin: 0px 0px 0px 2%;
+}
+
+
 
 .col-lg-3{
 	width: 100%;
+	height: 300px;
 	margin: 0px 0px 0px 0%;
 	margin-bottom: 17%
+}
+
+.proteinc{
+	height: 630px;
 }
 
 .accountcover {
@@ -3554,7 +3580,7 @@ h3 {
 .smplans {
 	width: 150px;
 	height: 50px;
-	margin: -45px 0px 0px 95px;
+	margin: -40px 0px 0px 95px;
 }
 
 .planlinks{
@@ -3565,12 +3591,12 @@ h3 {
 .blacktriangles{
 	background-color: #111111;
 	width: 100%;
-	height: 850px;
+	height:1150px;
 }
 
 .sellplan{
-	padding-top: 90px;
-	height: 850px;
+/*	padding-top: 90px;*/
+	height: 1150px;
 }
 
 .addcart{
@@ -3671,9 +3697,13 @@ textarea{
 	height: 1830px;
 }
 
+/*.planc{
+	height: 700px;
+}*/
+
 .sellshirts{
 	padding-top: 25px;
-	height: 2550px;
+	height: 2790px;
 }
 
 .proteincovertitle{
@@ -3691,12 +3721,12 @@ textarea{
 .smapparel {
 	width: 180px;
 	height: 100px;
-	margin: -44px 0px 0px 95px;
+	margin: -37px 0px 0px 35px;
 }
 
 .shirtcontainer{
 	padding-top: 25px;
-	height: 650px;
+	height: 1050px;
 	width: 95%;
 }
 
@@ -3717,9 +3747,7 @@ textarea{
 }
 
 .moreshirts {
-	width: 70%;
-	margin-top: 260px;
-	height: 990px;
+	display: none;
 }
 
 
@@ -3729,7 +3757,9 @@ textarea{
 }
 
 .shirtc{
+	width: 100%;
 	height: 410px;
+	margin: 40px 0px 0px 0px;
 }
 
 
@@ -3749,14 +3779,11 @@ textarea{
 	border: 1px solid #837f31;
 }
 
-/*.sizecontainer{
-	float: left;
-	width: 190px;
-	height: 110px;
-	margin: 40px 0px 0px -10px;
-	clear: both;
+.sizecontainer{
+	margin: 60px 0px 0px -10px;
+
 }
-*/
+
 
 .purchaserow{
 	height: 690px;
@@ -3781,7 +3808,7 @@ textarea{
 
 .purchasecart{
 	padding-top: -225px;
-	height: 2171px;
+	height: 1171px;
 	border-top: 1px solid #837f31;
 	/*border-bottom: 1px solid #837f31;*/
 }
@@ -3805,6 +3832,7 @@ textarea{
 
 .purchaseprocesscontainer{
 	margin-top: 100px;
+	width: 320px;
 	height: 600px;
 	padding: 0px;
 }
@@ -3839,17 +3867,16 @@ textarea{
 }
 
 .buybox {
-	margin-top:100px;
-	height: 625px;
+	margin-top:0px;
+	height: 725px;
 }
 
 .planbox{
 	margin: 0% 0px 0px 8%;
 }
 
-.thankyoutext{
-	margin-top: -80px;
-	height: 500px;	
+.purchasetext{
+	margin-top: 50px;
 }
 
 .purchasebox { 
@@ -3862,6 +3889,22 @@ textarea{
     color: #333333;
 }
 
+.purchasebox2{
+	width: 48%;
+}
+
+.purchasebox3 {
+	width: 100%;
+}
+
+.head{
+	margin-top: 50px;
+}
+
+.thankyoutext{
+	margin-top: -40px;
+	height: 520px;	
+}
 
 }
 
