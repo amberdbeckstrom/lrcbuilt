@@ -501,8 +501,17 @@ h5 {
 
 .purchasetitle{
 	position: relative;
-	margin-top:90px;
+	margin-top:0px;
 }
+
+.phoneinfo{
+	height: 500px;
+}
+
+.phoneinfo2{
+	height: 500px;
+}
+
 
 .smbtn {
 	float: left;
@@ -670,7 +679,7 @@ margin: 44px 0px 0px 3%;
 .quantitytitle {
 	float: left;
 	font-size: 1.6em;
-	margin: -19px 0px 0px 50px;
+	margin: -29px 0px 0px 70px;
 	height: 21px;
 	width: 100px;
 	text-align: left;
@@ -1830,7 +1839,7 @@ input.cart-input {
 
 
 
-@media (max-width: 769px) and (orientation: portrait) {
+@media and (max-device-width: 768px) and (orientation: portrait) {
 
 
 #wrapper {
@@ -1855,9 +1864,6 @@ li {
 	letter-spacing: .5px;
 }
 
-.work{
-	display: none;
-}
 
 .sidenav {
 	display:none;
@@ -1872,7 +1878,7 @@ li {
 
 .covertitle{
 	position: absolute;
-	margin: 20% 0px 0px 5%;
+	margin: 34% 0px 0px 0%;
 	z-index: 50;
 	width: 400px;
 }
@@ -1893,13 +1899,13 @@ li {
 	z-index: 50;
 }
 
-.learnmorebox{
+/*.learnmorebox{
 	position: absolute;
 	margin: 80% 0px 0px 48%;
 	width: 75px;
 	height: 47px;
 	z-index: 20;
-}
+}*/
 
 .homecover {
 	/*display: none;*/
@@ -2421,10 +2427,6 @@ textarea{
 
 
 
-
-
-
-
 body {
     overflow-x: hidden
 }
@@ -2599,13 +2601,13 @@ li {
 	width: 80px;
 }*/
 
-.covertitle{
+/*.covertitle{
 	position: absolute;
 	margin: 34.5% 0px 0px 5%;
 	z-index: 50;
 	width: 400px;
 }
-
+*/
 .lgtitle {
 	font-size: 6em;
 	letter-spacing: -4px;
@@ -2624,7 +2626,7 @@ li {
 
 .learnmorebox{
 	position: absolute;
-	margin: 112% 0px 0px 44%;
+	margin: 75% 0px 0px 44%;
 	width: 75px;
 	height: 47px;
 	z-index: 20;
@@ -2722,7 +2724,6 @@ h3 {
 	z-index: 1;
 }
 
-
 .championtext{
 	margin: 54% 5% 0px 35%;
 	width: 305px;
@@ -2732,6 +2733,7 @@ h3 {
 .goldfour {
 	font-size: 2.5em;
 	height: 100px;
+	width: 200px;
 }
 
 .championtitle{
@@ -3265,12 +3267,15 @@ body.sml-open nav.slide-menu-left {
 @media (max-width: 320px) and (orientation: portrait) {
 
 .logo{
-	display:none;
-
+	display:block;
 }
 
+header{
+	height: 60px;
+}
 .sidenav {
-	margin: 0px 0px 0px 4%;
+display: none;
+
 } 
 
 /*.logo{
@@ -3279,12 +3284,22 @@ body.sml-open nav.slide-menu-left {
 	width: 80px;
 }*/
 
+.nav-toggler{
+	display: block;
+	position: absolute;
+}
+
+.buttons{
+	display: block;
+}
+
 body{
 	width: 320px;
 }
 
 .headericonbox{
 	width: 305px;
+	margin-left: -1%;
 }
 
 .covertitle{
@@ -3300,7 +3315,7 @@ body{
 	height: 100px;
 	font-size: 5em;
 	letter-spacing: -4px;
-	margin: -79px 0px 0px 0px;
+	margin: -85px 0px 0px 0px;
 }
 
 .smtitle {
@@ -3312,7 +3327,7 @@ body{
 
 .learnmorebox{
 	position: absolute;
-	margin: 156% 0px 0px 41%;
+	margin: 156% 0px 0px 40%;
 	width: 75px;
 	height: 47px;
 	z-index: 101;
@@ -3330,7 +3345,7 @@ h4 {
 	font-weight: 100;
 	font-size: 2.3em;
 	width: 95%;
-	height: 370px;
+	height: 320px;
 	line-height: 1em;
 }
 
@@ -3339,12 +3354,18 @@ h4 {
 	font-weight: 100;
 	font-size: 2.3em;
 	width: 95%;
-	height: 200px;
+	height: 120px;
 	line-height: 1em;
+	margin-top: 40px;
 }
 
 .starttext{
-	height: 955px;
+	height: 860px;
+	width: 320px;	
+}
+
+.starttext2{
+	height: 960px;
 	width: 320px;	
 }
 
@@ -3353,12 +3374,12 @@ h4 {
 	margin: 15.5% 0px 0px 47%;
 }*/
 
-.championtext{
-	margin: 31% 0px 0px 47.8%;
-}
+/*.championtext{
+	margin: 31% 0px 0px 50.8%;
+}*/
 
 .championtitle{
-	margin: 47% 0px 0px 2%;
+	margin: 81% 0px 0px 5%;
 }
 
 
@@ -3375,7 +3396,7 @@ h4 {
 	font-size: 6em;
 	width: 100%;
 	height: 247px;
-	margin: 0px 0px 0px 0%;
+	margin: 0px 0px 0px -1%;
 	padding: 16% 0px 0px 0px;
 }
 
@@ -3392,8 +3413,8 @@ h4 {
 
 .viewplan{
 	font-size: 1.4em;
-	margin: 0px 0px 0px 8.5%;
-	height: 30px;
+	margin: -25px 0px 0px 8.5%;
+	height: 10px;
 
 	}
 
@@ -3443,7 +3464,7 @@ h3 {
 
 
 .championtext{
-	margin: 90% 5% 0px 2%;
+	margin: 127% 5% 0px 2%;
 	width: 305px;
 	font-size: .9em;
 }
@@ -3451,6 +3472,8 @@ h3 {
 .goldfour {
 	font-size: 2.5em;
 	height: 100px;
+	width: 300px;
+	margin-left: 5%;
 }
 
 /*.championtitle{
@@ -3483,9 +3506,11 @@ h3 {
 	padding: 0px;
 }
 
+
+
 .plans{
 	padding-top: 30px;
-	height: 1100px;
+	height: 1000px;
 }
 
 
@@ -3498,7 +3523,7 @@ h3 {
 
 .col-lg-3{
 	width: 100%;
-	height: 300px;
+	height: 255px;
 	margin: 0px 0px 0px 0%;
 	margin-bottom: 17%
 }
@@ -3513,7 +3538,7 @@ h3 {
 }
 
 .firstlogin{
-	margin: 45% 0px 0% 5.5%;
+	margin: 54% 0px 0% 5.5%;
 	width: 88%;
 	height: 220px;
 }
@@ -3523,7 +3548,7 @@ h3 {
 }
 
 .createaccountbox{
-	margin: 115% 0px 0px 23.7%;
+	margin: 120% 0px 0px 23.7%;
 }
 
 .logintitle{
@@ -3540,7 +3565,7 @@ h3 {
 }
 
 .smlogin {
-	margin: -30px 0px 0px 35%;
+	margin: -23px 0px 0px 35%;
 	width: 170px;
 	height: 50px;
 }
@@ -3587,7 +3612,7 @@ h3 {
 .blacktriangles{
 	background-color: #111111;
 	width: 100%;
-	height:1150px;
+	height:1000px;
 }
 
 .sellplan{
@@ -3608,7 +3633,7 @@ h3 {
 
 .purchasetext{
 	margin-top: 30px;
-	height: 310px;
+	height: 210px;
 }
 
 .headquarters{
@@ -3663,12 +3688,13 @@ textarea{
 
 .smbtnsubmit {
 	float: left;
-	margin: 20px 0px 0px 0px;
+	margin: 32px 0px 0px 0px;
 	height: 75px;
 	width: 100%;
-	border-left: solid 1px #837f31;
+	border-left: none;
 	clear: both;
 	margin-bottom: 40px;
+	border-top: none;
 }
 
 .submitsm{
@@ -3864,7 +3890,7 @@ textarea{
 
 .buybox {
 	margin-top:0px;
-	height: 725px;
+	height: 685px;
 }
 
 .planbox{
@@ -3900,6 +3926,18 @@ textarea{
 .thankyoutext{
 	margin-top: -40px;
 	height: 520px;	
+}
+
+.phoneinfo{
+	margin-top: -35px;
+}
+
+.phoneinfo2{
+	margin-top: -85px;
+}
+
+.smbtnprotein{
+	margin: 0 0 0 2%;
 }
 
 }
