@@ -899,9 +899,51 @@ margin: 44px 0px 0px 3%;
 	/*text-decoration: none;*/
 }
 
+h4.loginbtn:hover {
+	color: white;
+	border-color: white;
+	cursor: pointer;
+}
+
+h4.loginbtn:active {
+	color: gray;
+	border-color: gray;
+	cursor: pointer;
+}
+
 h4.addcart:hover {
-	color: blue;
-	border-color: blue;
+	color: black;
+	border-color: black;
+	cursor: pointer;
+}
+
+h4.addcart:active {
+	color: gray;
+	border-color: gray;
+	cursor: pointer;
+}
+
+h4.addcartsm:hover {
+	color: black;
+	border-color: black;
+	cursor: pointer;
+}
+
+h4.addcartsm:active {
+	color: gray;
+	border-color: gray;
+	cursor: pointer;
+}
+
+h4.addcartprotein:hover {
+	color: black;
+	border-color: black;
+	cursor: pointer;
+}
+
+h4.addcartprotein:active {
+	color: gray;
+	border-color: gray;
 	cursor: pointer;
 }
 
@@ -923,11 +965,7 @@ h4.addcart:hover {
 	color: #837f31;
 }
 
-h4.addcartsm:hover {
-	color: blue;
-	border-color: blue;
-	cursor: pointer;
-}
+
 
 
 .addcartprotein {
@@ -943,11 +981,7 @@ h4.addcartsm:hover {
 	text-indent: none;
 }
 
-h4.addcartprotein:hover {
-	color: blue;
-	border-color: blue;
-	cursor: pointer;
-}
+
 
 .submitsm{
 	float: left;
@@ -1201,6 +1235,10 @@ input.cart-input {
 	width: 80px;
 }
 
+.smlogin{
+		margin: 7px 0px 0px 136px;
+}
+
 .covertitle{
 	position: absolute;
 	margin: 13% 0px 0px 23%;
@@ -1324,7 +1362,7 @@ textarea{
 }
 
 .lgtitle {
-	margin: -70px 0px 0px -16px;
+	margin: -86px 0px 0px -16px;
 	padding: 0px;
 }
 
